@@ -1,7 +1,9 @@
 import React from 'react';
 import { FileSystem, Asset } from 'expo';
-import { ScrollView, StyleSheet, Image } from 'react-native';
+import { ScrollView, View, Text, StyleSheet, Image } from 'react-native';
 import Markdown from 'react-native-simple-markdown';
+import Collapsible from 'react-native-collapsible';
+import Accordion from 'react-native-collapsible/Accordion';
 
 const markdownFiles = {
   'Summary': require('../assets/markdown/0-summary.md'),
@@ -63,9 +65,17 @@ export default class RulesScreen extends React.Component {
     });
   }
 
-  render() {
+  _renderHeader(section) {
     return (
-      <ScrollView style={styles.container}>
+      <View style={styles.header}>
+        <Text style={styles.headerText}>{section.title}</Text>
+      </View>
+    );
+  }
+
+  _renderContent(section) {
+    return (
+      <ScrollView style={styles.content}>
         <Markdown
           styles={markdownStyles}
           rules={{
@@ -87,14 +97,51 @@ export default class RulesScreen extends React.Component {
               },
             },
           }}
-        >
-        {this.state.summary}
-        {this.state.gameParametersAndSafety}
-        {this.state.gamePlay}
-        {this.state.scoring}
-        {this.state.penalties}
-        {this.state.officiating}
-        </Markdown>
+      >
+        {section.content}
+      </Markdown>
+    </ScrollView>
+    // <View style={styles.content}>
+    //   <Text>{section.content}</Text>
+    // </View>
+    );
+  }
+
+  render() {
+    const sections = [
+      {
+        title: 'Summary',
+        content: this.state.summary
+      },
+      {
+        title: 'Game parameters & safety',
+        content: this.state.gameParametersAndSafety
+      },
+      {
+        title: 'Gameplay',
+        content: this.state.gamePlay
+      },
+      {
+        title: 'Scoring',
+        content: this.state.scoring
+      },
+      {
+        title: 'Penalties',
+        content: this.state.penalties
+      },
+      {
+        title: 'Officiating',
+        content: this.state.officiating
+      }
+    ];
+
+    return (
+      <ScrollView style={styles.container}>
+        <Accordion
+          sections={sections}
+          renderHeader={this._renderHeader}
+          renderContent={this._renderContent}
+        />
       </ScrollView>
     );
   }
@@ -103,9 +150,23 @@ export default class RulesScreen extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: 25,
-    paddingLeft: 20,
-    paddingRight: 20,
+    // paddingTop: 25,
+    // paddingLeft: 20,
+    // paddingRight: 20,
+    backgroundColor: '#fff'
+  },
+  header: {
+    backgroundColor: '#F5FCFF',
+    padding: 10,
+  },
+  headerText: {
+    textAlign: 'center',
+    fontSize: 16,
+    fontWeight: '500',
+    color: 'black'
+  },
+  content: {
+    padding: 20,
     backgroundColor: '#fff',
   },
 });
