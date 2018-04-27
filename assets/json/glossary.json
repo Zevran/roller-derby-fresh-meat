@@ -1,0 +1,264 @@
+{
+	"glossary": [
+		{
+			"word": "Ahead",
+			"definition": "One thing (for example, a Skater, a line, the Pack) is “ahead” of another thing, in relation to the track, if it is nearer in the counterclockwise direction than the clockwise direction."
+		},
+		{
+			"word": "Apex Jump",
+			"definition": "An attempt to legally shorten the distance travelled around the curve of the track by leaping over the track boundary and landing back in bounds."
+		},
+		{
+			"word": "Assist",
+			"definition": "Physically affecting a teammate. Common examples include a push or a whip."
+		},
+		{
+			"word": "Behind",
+			"definition": "One thing (for example, a Skater, a line, the Pack) is “behind” another thing, in relation to the track, if it is nearer in the clockwise direction than the counterclockwise direction."
+		},
+		{
+			"word": "Blocker",
+			"definition": "The positional Skaters who form the Pack. Up to four Blockers from each team may skate, per Jam. One Blocker per Jam, for each team, may be a Pivot Blocker."
+		},
+		{
+			"word": "Blocking Zones",
+			"definition": "Areas of the body that may be used to hit an opponent when performing a block."
+		},
+		{
+			"word": "Captain",
+			"definition": "The Skater identified, via a visible “C” on their body or clothing, to speak on the team’s behalf. If one has not been selected or has left the game, the team may determine one at any time by informing the Head Referee, and must determine one if necessary (for example, if a penalty is to be assessed to a Captain, the team must determine a Captain)."
+		},
+		{
+			"word": "Counter-Block",
+			"definition": "Any motion/movement toward an oncoming block by the receiving opponent designed to counteract an opponent’s block. Counter-blocking is treated as blocking and held to the same standards and rules (except where specified)."
+		},
+		{
+			"word": "Designated Alternate",
+			"definition": "The Captain designates an additional person to act on their team’s behalf via a visible “A” on their uniform or body; this person is the Designated Alternate. The Designated Alternate may be a teammate, coach, or manager. A team may only have one Designated Alternate. If one has not been selected or has left the game, the Captain may designate a different Alternate by informing the Head Referee."
+		},
+		{
+			"word": "Down",
+			"definition": "Skaters are considered down if they have fallen, been knocked to the ground, have either or both knees on the ground, or have both hands on the ground. After going down or falling, a Skater is considered down until the Skater is standing, stepping, or skating. Stationary standing Skaters are not considered down, nor are Skaters who are falling but have not yet met the above criteria."
+		},
+		{
+			"word": "Engagement Zone",
+			"definition": "The zone in which Blockers are In Play and may legally engage and be engaged. The Engagement Zone extends from 20 ft (6.10m) behind the rearmost Pack Skater to 20 ft (6.10m) in front of the foremost Pack Skater, between the inside and outside track boundaries."
+		},
+		{
+			"word": "Engaging",
+			"definition": "Any sort of interaction with another Skater on the track during a Jam (see also Assist and Blocking, Section 2.4)."
+		},
+		{
+			"word": "Established Position",
+			"definition": "Where a Skater is physically; an area of the track where the Skater has secured their place. Examples include up, in bounds, down, out of bounds, in play, and out of play."
+		},
+		{
+			"word": "Expulsion",
+			"definition": "Removal by the Head Referee of a Skater or Team Staff from the remainder of the game for a serious illegal action, such as physical violence or any action deemed by the Officials to cause an extraordinary physical threat to others."
+		},
+		{
+			"word": "Falling Small",
+			"definition": "A Skater is said to have “fallen small” if they fall with the arms and legs controlled, tucked into the body, and not flailing or sprawled."
+		},
+		{
+			"word": "Fouling Out",
+			"definition": "Removal, by an Official, of a Skater from the remainder of the game for having seven penalties recorded for that Skater."
+		},
+		{
+			"word": "Governing Body",
+			"definition": "The organization responsible for the sanctioning of the game; or in an unsanctioned game, the organization responsible for determining the terms of the game, such as a tournament, local league, or other person(s) serving in that role."
+		},
+		{
+			"word": "Grasping",
+			"definition": "Actively gripping something; for example, grabbing a teammate’s uniform or helmet cover, or holding hands. The grasping Skater’s arm, from the hand up to (but not including) the shoulder, is considered to be part of the “grasp.” The teammate is not considered part of the grasp, unless the teammate is independently grasping."
+		},
+		{
+			"word": "Habitual",
+			"definition": "Any behavior that occurs three or more times over the course of a game."
+		},
+		{
+			"word": "Head Referee",
+			"definition": "One Referee will be designated the Head Referee. The Head Referee is the ultimate authority, and is the only Referee with the authority to expel a Skater, manager, or coach, though other Officials may recommend expulsions to the Head Referee."
+		},
+		{
+			"word": "Hips",
+			"definition": "The laterally-projecting prominence of the pelvis or pelvic region from the waist to the thigh. The central point of this area determines a pass, regardless of the direction the Skater is facing."
+		},
+		{
+			"word": "Illegal Procedure",
+			"definition": "Any technical (non-contact) infraction that violates the rules."
+		},
+		{
+			"word": "Immediately",
+			"definition": "The first legal opportunity in which someone may complete an action."
+		},
+		{
+			"word": "Impenetrable",
+			"definition": "A wall is considered to be impenetrable from a certain direction when, to achieve a pass on one or more of the Skaters who comprise the wall, an opponent would need to physically break bones or joints. The parts that would need to be physically broken in order to pass are considered the “impenetrable” parts. For example, if two teammates are skating forward with their arms around each other’s backs, the arms constitute an impenetrable wall, so that an opponent could not pass between the pair without breaking one of those Blockers’ arms."
+		},
+		{
+			"word": "In Bounds",
+			"definition": "A Skater is in bounds if the only points at which they are touching the floor are in between the track’s boundary lines. Once touching outside the track boundary lines, a Skater is considered to be in bounds again once all parts of the Skater that are touching the ground are touching within the track boundary. A Skater who is touching out of bounds with only a single hand is still considered to be in bounds."
+		},
+		{
+			"word": "In Play",
+			"definition": "A Blocker is in play when they are in bounds and upright within the Engagement Zone. Jammers who are in bounds and upright are always in play."
+		},
+		{
+			"word": "In Position",
+			"definition": "When a Skater is on the track, in bounds, and in the designated area for their position when the Jam-Starting Whistle is blown."
+		},
+		{
+			"word": "In Queue",
+			"definition": "Actively skating while having a penalty pending, usually after having been waved back to the track due to the Penalty Box being full, or having been assessed a penalty while being the only Blocker on the track."
+		},
+		{
+			"word": "Initiator",
+			"definition": "The Skater who is responsible for contact happening to an opponent (initiating a block) or teammate (initiating an assist). A Skater can also initiate their own assist by taking a whip off of a teammate’s body, or initiate a counter-block in response to an opponent’s block. The initiator of a block or assist is always responsible for the legality of the contact."
+		},
+		{
+			"word": "Insubordination",
+			"definition": "Willfully or neglectfully failing to comply with an Official’s orders. Wrongful or improper behavior motivated by intentional disregard for the rules."
+		},
+		{
+			"word": "Jam, Jams",
+			"definition": "The basic unit of play for the game. A Jam can last up to two minutes."
+		},
+		{
+			"word": "Jammer",
+			"definition": "The point scorer for a team."
+		},
+		{
+			"word": "Lap ,Lapping",
+			"definition": "One Skater has lapped an opponent if the Skater has passed the opponent twice in a row without the opponent having passed the lapping Skater in between. If a Jammer passes an opponent for the second time, but the second pass was not “earned,” the Jammer is still said to have lapped their opponent, and may earn a “re-pass” on said opponent to score the missed point."
+		},
+		{
+			"word": "Lead Jammer",
+			"definition": "The Lead Jammer is the first Jammer to pass the foremost in play Blocker, having already passed all in play Blockers legally and in bounds on their initial pass."
+		},
+		{
+			"word": "Leaving the Track",
+			"definition": "New in version 20170630: Rules Committee determined a new glossary entry was required. (Penalty Enforcement) Exiting the track to the outside or the inside, corresponding to the location of the Penalty Box."
+		},
+		{
+			"word": "Linking",
+			"definition": "Interlocking of arms via crooking of an elbow. Both Skaters’ arms, up to (but not including) the shoulder are considered to be part of the link."
+		},
+		{
+			"word": "No Impact",
+			"definition": "A violation of the rules of the game that has limited impact on safety or gameplay, and does not warrant a penalty."
+		},
+		{
+			"word": "No Pack",
+			"definition": "When there is not a group of Blockers (from both teams) skating within 10 ft (3.05m) of each other, or when there are two or more equally numbered groups of Blockers not skating within 10 ft (3.05m) of each other."
+		},
+		{
+			"word": "Not-On-the-Track Point, NOTT Point",
+			"definition": "A point given for an opponent who is not on the track (such as Skaters in the Penalty Box) that the Jammer earns immediately upon earning a pass on any opposing Blocker, per trip through the Pack."
+		},
+		{
+			"word": "Out of Bounds",
+			"definition": "A Skater is out of bounds when part of the Skater’s body or equipment is touching the ground beyond the track boundary, including both arms or hands (one arm or hand does not render a Skater out of bounds), or any part below the Skater’s waist (for example, a knee, a skate, or a hip). Skaters who are straddling are considered out of bounds, except where otherwise noted."
+		},
+		{
+			"word": "Out of Play",
+			"definition": "A Blocker who is in bounds, but positioned outside of the Engagement Zone. If no Pack is defined, all Blockers are out of play. When a Jammer is out of bounds, they are out of play."
+		},
+		{
+			"word": "Pack",
+			"definition": "The largest group of in bounds Blockers, skating or standing in proximity (within 10 ft/3.05m), containing members from both teams. The Jammers are independent of this definition."
+		},
+		{
+			"word": "Pack Skater",
+			"definition": "Any Blocker who is part of a legally defined Pack."
+		},
+		{
+			"word": "Pass, Earned Pass",
+			"definition": "See Section 2.5"
+		},
+		{
+			"word": "Passing the Star, Star Pass",
+			"definition": "The act of transferring Jammer status, which is accomplished by the Jammer handing their helmet cover (the Star) to the Pivot."
+		},
+		{
+			"word": "Penalty",
+			"definition": "A violation of the rules of the game requiring the Skater to serve time in the Penalty Box, or the specific punishment of serving time in the Penalty Box due to the commission of such a violation."
+		},
+		{
+			"word": "Pivot Blocker, Pivot",
+			"definition": "A Blocker with extra abilities and responsibilities, commonly referred to as the Pivot. (see Section 2.2.3)"
+		},
+		{
+			"word": "Points Awarded in Error",
+			"definition": "Points that have not been legally earned by a Jammer and have been awarded to the team incorrectly and/or erroneously by an Official or as the result of a technology malfunction."
+		},
+		{
+			"word": "Points Denied in Error",
+			"definition": "Similar to Points Awarded in Error, points denied in error are points that have been legally earned by a Jammer but have not been added to the O{fficial Score due to delay, an error by an Official, or as the result of a technology malfunction."
+		},
+		{
+			"word": "Positional Blocking",
+			"definition": "Blocking without contact; positioning oneself so as to impede an opponent’s movement on the track. Positional blocking need not be intentional."
+		},
+		{
+			"word": "Protective Gear",
+			"definition": "Skaters must wear helmet, mouthguard, wrist guards, elbow pads, and knee pads so long as they provide additional protection and the skater is physically able to wear them. Skaters shall not be penalized if the equipment does not provide additional protection for the skater."
+		},
+		{
+			"word": "Re-Pass",
+			"definition": "The act of passing an opponent who has already been passed during the current lap. Most relevant to a Jammer who ends up ahead of an opponent without “earning” the pass. Such a Jammer would not score a point on that opponent, but could re-pass that opponent, earning their second pass, in order to score that point."
+		},
+		{
+			"word": "Relative Position",
+			"definition": "A Skater’s location, when in bounds and upright, in relation to other Skaters involved in the action. Relative position is said to be “gained” or “lost” if said location changes in a way that gives or loses some advantage (for example, one Skater passing another, or being knocked down, out of bounds, or out of play). Relative position is only measured in the counterclockwise direction."
+		},
+		{
+			"word": "Roster",
+			"definition": "The list of Skaters for a team, and their identifying numbers, who are eligible to play in the game."
+		},
+		{
+			"word": "Sitting",
+			"definition": "A Skater whose buttocks are in full contact with the seat of a chair or bench."
+		},
+		{
+			"word": "Standing",
+			"definition": "A Skater holding their body weight on their skates, such that they are not Down and it is obvious to Officials, Skaters, and spectators that they are not Sitting."
+		},
+		{
+			"word": "Stopped",
+			"definition": "A Skater not making any directional movement with their skates."
+		},
+		{
+			"word": "Straddling",
+			"definition": "A Skater who is partially touching inside the track boundary line and also partially outside is straddling. Straddling Skaters are considered Out of Bounds, except where otherwise noted."
+		},
+		{
+			"word": "Substitution",
+			"definition": "Replacing a Skater on the track or in the Penalty Box with a teammate."
+		},
+		{
+			"word": "The Star",
+			"definition": "The Jammer helmet cover, which has two stars on it, one on each side."
+		},
+		{
+			"word": "The Stripe",
+			"definition": "The Pivot helmet cover, which has one long stripe down the middle of it."
+		},
+		{
+			"word": "Target Zones",
+			"definition": "Areas of the body on an opponent that a Skater makes contact to when blocking."
+		},
+		{
+			"word": "Trip Through the Pack",
+			"definition": "Jammers make trips through the Pack. Each trip represents an opportunity to score points on opponents. See Section 3."
+		},
+		{
+			"word": "Upright",
+			"definition": "Any Skater who is not considered Down."
+		},
+		{
+			"word": "Warning",
+			"definition": "A formal verbal indication from the Official that play is currently or is about to be improper, so that a Skater can take corrective action."
+		}
+	]
+}

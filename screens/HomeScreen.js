@@ -42,6 +42,11 @@ export default class HomeScreen extends React.Component {
             </Text>
           </View>
         </ScrollView>
+        <View style={styles.tabBarInfoContainer}>
+          <MonoText>
+            This application is developed by Gaël Reyrol, fresh meat of Caen Men's Roller Derby.
+          </MonoText>
+        </View>
       </View>
     );
   }
@@ -134,4 +139,12 @@ const styles = StyleSheet.create({
     fontSize: 14,
     color: '#2e78b7',
   },
+  tabBarInfoContainer: {
+    position: 'absolute',
+    bottom: 0,
+    left: 0,
+    right: 0,
+    alignItems: 'center',
+    paddingVertical: 20,
+  }
 });

@@ -7,7 +7,7 @@ import Colors from '../constants/Colors';
 
 import HomeScreen from '../screens/HomeScreen';
 import RulesScreen from '../screens/RulesScreen';
-import AboutScreen from '../screens/AboutScreen';
+import GlossaryScreen from '../screens/GlossaryScreen';
 
 export default TabNavigator(
   {
@@ -17,8 +17,8 @@ export default TabNavigator(
     Rules: {
       screen: RulesScreen,
     },
-    About: {
-      screen: AboutScreen,
+    Glossary: {
+      screen: GlossaryScreen,
     },
   },
   {
@@ -34,11 +34,17 @@ export default TabNavigator(
                 : 'md-home';
             break;
           case 'Rules':
-            iconName = Platform.OS === 'ios' ? `ios-document${focused ? '' : '-outline'}` : 'md-document';
-            break;
-          case 'About':
             iconName =
-              Platform.OS === 'ios' ? `ios-information-circle${focused ? '' : '-outline'}` : 'md-information';
+              Platform.OS === 'ios'
+                ? `ios-document${focused ? '' : '-outline'}`
+                : 'md-document';
+            break;
+          case 'Glossary':
+          iconName =
+            Platform.OS === 'ios'
+              ? `ios-book${focused ? '' : '-outline'}`
+              : 'md-book';
+          break;
         }
         return (
           <Ionicons
