@@ -1,6 +1,7 @@
 import React from 'react';
 import { FileSystem, Asset } from 'expo';
-import { ScrollView, View, Text, StyleSheet, Image } from 'react-native';
+import { ScrollView , StyleSheet, Image } from 'react-native';
+import { View, Text, Row, Divider, Icon, ImagePreview } from '@shoutem/ui'
 import Markdown from 'react-native-simple-markdown';
 import Collapsible from 'react-native-collapsible';
 import Accordion from 'react-native-collapsible/Accordion';
@@ -67,8 +68,12 @@ export default class RulesScreen extends React.Component {
 
   _renderHeader(section) {
     return (
-      <View style={styles.header}>
-        <Text style={styles.headerText}>{section.title}</Text>
+      <View>
+        <Row styleName="small">
+          <Icon name="down-arrow" />
+          <Text>{section.title}</Text>
+        </Row>
+        <Divider styleName="line" />
       </View>
     );
   }
@@ -81,19 +86,37 @@ export default class RulesScreen extends React.Component {
           rules={{
             image: {
               react: (node, output, state) => {
+                let imageSource = null;
+                let imageWidth = 0;
+                let imageHeight = 0;
                 switch (node.target) {
                   case 'TrackDimensions':
-                    return <Image key="TrackDimensions" source={TrackDimensionsImage} />
+                    imageWidth = 816;
+                    imageHeight = 576;
+                    imageSource = TrackDimensionsImage;
                     break;
                   case 'ContactZones':
-                    return <Image key="ContactZones" source={ContactZonesImage} />
+                    imageWidth = 371;
+                    imageHeight = 342;
+                    imageSource = ContactZonesImage;
                     break;
-                    case 'BlockingZones':
-                    return <Image key="BlockingZones" source={BlockingZonesImage} />
+                  case 'BlockingZones':
+                    imageWidth = 371;
+                    imageHeight = 342;
+                    imageSource = BlockingZonesImage;
                     break;
                   default:
                     break;
                 }
+
+                return (
+                  <ImagePreview
+                    key={node.target}
+                    source={imageSource}
+                    width={imageWidth}
+                    height={imageHeight}
+                  />
+                );
               },
             },
           }}
@@ -136,13 +159,15 @@ export default class RulesScreen extends React.Component {
     ];
 
     return (
-      <ScrollView style={styles.container}>
-        <Accordion
-          sections={sections}
-          renderHeader={this._renderHeader}
-          renderContent={this._renderContent}
-        />
-      </ScrollView>
+      <View>
+        <ScrollView>
+          <Accordion
+            sections={sections}
+            renderHeader={this._renderHeader}
+            renderContent={this._renderContent}
+          />
+        </ScrollView>
+      </View>
     );
   }
 }
