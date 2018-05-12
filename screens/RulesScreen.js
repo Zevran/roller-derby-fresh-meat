@@ -1,7 +1,7 @@
 import React from 'react';
 import { FileSystem, Asset } from 'expo';
 import { ScrollView , StyleSheet, Image } from 'react-native';
-import { View, Text, Row, Divider, Icon, ImagePreview } from '@shoutem/ui'
+import { View, Title, Text, Row, Divider, Icon, ImagePreview } from '@shoutem/ui'
 import Markdown from 'react-native-simple-markdown';
 import Collapsible from 'react-native-collapsible';
 import Accordion from 'react-native-collapsible/Accordion';
@@ -42,13 +42,6 @@ export default class RulesScreen extends React.Component {
   };
 
   async componentWillMount() {
-    // const assetFromModule = await Asset.fromModule(require('../assets/markdown/0-summary.md'));
-    // const filesystemDownload = await FileSystem.downloadAsync(
-    //   assetFromModule.uri,
-    //   FileSystem.documentDirectory + '0-summary.md',
-    // );
-    // const filesystemReadAsString = await FileSystem.readAsStringAsync(filesystemDownload.uri);
-
     const summary = await getMarkdown('summary', markdownFiles.Summary)
     const gameParametersAndSafety = await getMarkdown('gameParametersAndSafety', markdownFiles.GameParametersAndSafety)
     const gamePlay = await getMarkdown('gamePlay', markdownFiles.GamePlay)
@@ -71,7 +64,7 @@ export default class RulesScreen extends React.Component {
       <View>
         <Row styleName="small">
           <Icon name="down-arrow" />
-          <Text>{section.title}</Text>
+          <Title>{section.title}</Title>
         </Row>
         <Divider styleName="line" />
       </View>
@@ -120,13 +113,10 @@ export default class RulesScreen extends React.Component {
               },
             },
           }}
-      >
-        {section.content}
-      </Markdown>
-    </ScrollView>
-    // <View style={styles.content}>
-    //   <Text>{section.content}</Text>
-    // </View>
+        >
+          {section.content}
+        </Markdown>
+      </ScrollView>
     );
   }
 
