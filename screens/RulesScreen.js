@@ -1,63 +1,47 @@
 import React from 'react';
-import { FileSystem, Asset } from 'expo';
-import { ScrollView , StyleSheet, Image } from 'react-native';
+import { ScrollView , StyleSheet } from 'react-native';
 import { View, Title, Text, Row, Divider, Icon, ImagePreview } from '@shoutem/ui'
-import Markdown from 'react-native-simple-markdown';
 import Collapsible from 'react-native-collapsible';
 import Accordion from 'react-native-collapsible/Accordion';
 
-const markdownFiles = {
-  'Summary': require('../assets/markdown/0-summary.md'),
-  'GameParametersAndSafety': require('../assets/markdown/1-game-parameters-and-safety.md'),
-  'GamePlay': require('../assets/markdown/2-gameplay.md'),
-  'Scoring': require('../assets/markdown/3-scoring.md'),
-  'Penalties': require('../assets/markdown/4-penalties.md'),
-  'Officiating': require('../assets/markdown/5-officiating.md'),
-};
+import Summary from '../components/Rules/Summary';
+import GameParametersAndSafety from '../components/Rules/GameParametersAndSafety';
+import Gameplay from '../components/Rules/Gameplay';
+import Scoring from '../components/Rules/Scoring';
+import Penalties from '../components/Rules/Penalties';
+import Officiating from '../components/Rules/Officiating';
 
-const BlockingZonesImage = require('../assets/images/rules/blocking_zones.png');
-const ContactZonesImage = require('../assets/images/rules/contact_zones.png');
-const TrackDimensionsImage = require('../assets/images/rules/track_dimensions.png');
-
-
-const getMarkdown = async (filename, req) => {
-  const asset = await Asset.fromModule(req);
-  const filesystem = await FileSystem.downloadAsync(
-    asset.uri,
-    FileSystem.documentDirectory + filename,
-  );
-  const content = await FileSystem.readAsStringAsync(filesystem.uri);
-
-  return content;
-}
+const sections = [
+  {
+    title: 'Summary',
+    content: <Summary />
+  },
+  {
+    title: 'Game parameters & safety',
+    content: <GameParametersAndSafety />
+  },
+  // {
+  //   title: 'Gameplay',
+  //   content: <Gameplay />
+  // },
+  // {
+  //   title: 'Scoring',
+  //   content: <Scoring />
+  // },
+  // {
+  //   title: 'Penalties',
+  //   content: <Penalties />
+  // },
+  // {
+  //   title: 'Officiating',
+  //   content: <Officiating />
+  // }
+];
 
 export default class RulesScreen extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-
   static navigationOptions = {
     title: 'Rules',
   };
-
-  async componentWillMount() {
-    const summary = await getMarkdown('summary', markdownFiles.Summary)
-    const gameParametersAndSafety = await getMarkdown('gameParametersAndSafety', markdownFiles.GameParametersAndSafety)
-    const gamePlay = await getMarkdown('gamePlay', markdownFiles.GamePlay)
-    const scoring = await getMarkdown('scoring', markdownFiles.Scoring)
-    const penalties = await getMarkdown('penalties', markdownFiles.Penalties)
-    const officiating = await getMarkdown('officiating', markdownFiles.Officiating)
-
-    this.setState({
-      summary,
-      gameParametersAndSafety,
-      gamePlay,
-      scoring,
-      penalties,
-      officiating
-    });
-  }
 
   _renderHeader(section) {
     return (
@@ -74,80 +58,12 @@ export default class RulesScreen extends React.Component {
   _renderContent(section) {
     return (
       <ScrollView style={styles.content}>
-        <Markdown
-          styles={markdownStyles}
-          rules={{
-            image: {
-              react: (node, output, state) => {
-                let imageSource = null;
-                let imageWidth = 0;
-                let imageHeight = 0;
-                switch (node.target) {
-                  case 'TrackDimensions':
-                    imageWidth = 816;
-                    imageHeight = 576;
-                    imageSource = TrackDimensionsImage;
-                    break;
-                  case 'ContactZones':
-                    imageWidth = 371;
-                    imageHeight = 342;
-                    imageSource = ContactZonesImage;
-                    break;
-                  case 'BlockingZones':
-                    imageWidth = 371;
-                    imageHeight = 342;
-                    imageSource = BlockingZonesImage;
-                    break;
-                  default:
-                    break;
-                }
-
-                return (
-                  <ImagePreview
-                    key={node.target}
-                    source={imageSource}
-                    width={imageWidth}
-                    height={imageHeight}
-                  />
-                );
-              },
-            },
-          }}
-        >
-          {section.content}
-        </Markdown>
+        {section.content}
       </ScrollView>
     );
   }
 
   render() {
-    const sections = [
-      {
-        title: 'Summary',
-        content: this.state.summary
-      },
-      {
-        title: 'Game parameters & safety',
-        content: this.state.gameParametersAndSafety
-      },
-      {
-        title: 'Gameplay',
-        content: this.state.gamePlay
-      },
-      {
-        title: 'Scoring',
-        content: this.state.scoring
-      },
-      {
-        title: 'Penalties',
-        content: this.state.penalties
-      },
-      {
-        title: 'Officiating',
-        content: this.state.officiating
-      }
-    ];
-
     return (
       <View>
         <ScrollView>
@@ -185,44 +101,3 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
   },
 });
-
-const markdownStyles = {
-  heading1: {
-    fontSize: 24,
-    color: 'black',
-    marginBottom: 10,
-  },
-  heading2: {
-    fontSize: 20,
-    color: 'black',
-    marginBottom: 10,
-  },
-  heading3: {
-    fontSize: 16,
-    color: 'black',
-    marginTop: 5,
-    marginBottom: 5,
-  },
-  link: {
-    color: 'pink',
-  },
-  mailTo: {
-    color: 'orange',
-  },
-  text: {
-    color: '#555555',
-    marginBottom: 5,
-  },
-  list: {
-    marginTop: 10,
-    marginBottom: 10,
-  },
-  listItemNumber: {
-    alignSelf: 'flex-start',
-  },
-  listItemText: {
-    alignSelf: 'flex-start',
-    paddingTop: 5,
-    marginTop: 3,
-  }
-}

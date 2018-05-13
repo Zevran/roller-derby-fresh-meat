@@ -21,7 +21,11 @@
       "assets/**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.gaelreyrol.freshmeat",
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.gaelreyrol.freshmeat"
     },
     "packagerOpts": {
       "assetExts": [
