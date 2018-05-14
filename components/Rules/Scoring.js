@@ -1,12 +1,11 @@
 import React from 'react';
-
-import RuleSection from '../RuleSection';
+import { View, Title, Subtitle, Text, Divider } from '@shoutem/ui';
 
 export default class Scoring extends React.Component {
 
   render() {
     return (
-      <RuleSection>
+      <View>
 # 3. Scoring{'\n'}{'\n'}
 
 ## 3.1. Earning Points{'\n'}{'\n'}
@@ -44,7 +43,7 @@ When a Jam ends, whatever trip the Jammers are on is considered to have been “
 However, points awarded (or denied) correctly, given the information available at the time, may not be taken away (or awarded) later. For example, a Jammer who exits the Engagement Zone and is awarded four points has earned those points, even if upon review they were found to have committed a penalty two trips prior (and thus would not have been able to earn those points).{'\n'}{'\n'}
 
 See **Points Awarded in Error** and **Points Denied in Error**{'\n'}{'\n'}
-      </RuleSection>
+      </View>
     );
   }
 }

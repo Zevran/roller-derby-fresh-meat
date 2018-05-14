@@ -1,12 +1,11 @@
 import React from 'react';
-
-import RuleSection from '../RuleSection';
+import { View, Title, Subtitle, Text, Divider } from '@shoutem/ui';
 
 export default class Officiating extends React.Component {
 
   render() {
     return (
-      <RuleSection>
+      <View>
 # 5. Officiating{'\n'}{'\n'}
 
 ## 5.1. Staffing{'\n'}{'\n'}
@@ -77,7 +76,7 @@ The Head Referee may, at their discretion, limit the extent to which Skaters may
 If the only Blocker from a team who is on the track commits a penalty, the Blocker should not be sent off the track until another Blocker from their team rejoins the Pack.{'\n'}{'\n'}
 
 If a penalty is warranted, but it is not clear to whom the penalty should be assessed, an Official should assess the penalty to the nearest Blocker from the appropriate team if the action is committed mid-Jam, or to the team’s Captain if the action is committed between Jams. If an Official is not certain which team is responsible, no penalty should be assessed. If off-skates support staff commit a penalty, the penalty should be assessed to the appropriate team’s Captain. If a penalty is assessed to the Captain due to the fact that they are Captain, they will serve the penalty as a Blocker in a following Jam.{'\n'}{'\n'}
-      </RuleSection>
+      </View>
     );
   }
 }

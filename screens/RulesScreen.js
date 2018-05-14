@@ -20,18 +20,18 @@ const sections = [
     title: 'Game parameters & safety',
     content: <GameParametersAndSafety />
   },
-  // {
-  //   title: 'Gameplay',
-  //   content: <Gameplay />
-  // },
+  {
+    title: 'Gameplay',
+    content: <Gameplay />
+  },
   // {
   //   title: 'Scoring',
   //   content: <Scoring />
   // },
-  // {
-  //   title: 'Penalties',
-  //   content: <Penalties />
-  // },
+  {
+    title: 'Penalties',
+    content: <Penalties />
+  },
   // {
   //   title: 'Officiating',
   //   content: <Officiating />
