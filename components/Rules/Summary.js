@@ -41,8 +41,9 @@ export default class Summary extends React.Component {
           4. One Jammer exits the Pack and is declared Lead Jammer, earning the right to end the Jam when they decide. This Jammer races around the track to get into scoring position.{'\n'}
           5. The same Jammer begins to work their way through the Pack for the second time, and the opposing Jammer makes their way out of the Pack for the first time.{'\n'}
           6. As the second Jammer to escape the Pack comes around into scoring position, the first Jammer calls off the Jam.{'\n'}
-          7. The first Jammer has scored several points (up to four), and held their opponent at zero points. Meanwhile, the opposing Jammer (by getting into scoring position) held the first Jammer at only those points, as they could have scored more points on subsequent passes.{'\n'}
+          7. The first Jammer has scored several points (up to four), and held their opponent at zero points. Meanwhile, the opposing Jammer (by getting into scoring position) held the first Jammer at only those points, as they could have scored more points on subsequent passes.
         </Text>
+        <Divider styleName="empty" />
       </View>
     );
   }

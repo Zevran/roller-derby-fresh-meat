@@ -131,8 +131,9 @@ export default class GameParametersAndSafety extends React.Component {
         <Text styleName="multiline">
           - the period clock{'\n'}
           - the Jam clock{'\n'}
-          - the Official Score{'\n'}
+          - the Official Score
         </Text>
+        <Divider styleName="empty" />
         <Text styleName="multiline">
           Errors in timing or score should be updated as quickly as possible. If an error persists for an extended period of time, it should be corrected only if the correction itself would have minimal impact on the game.
         </Text>

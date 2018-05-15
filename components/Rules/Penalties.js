@@ -213,7 +213,7 @@ export default class Penalties extends React.Component {
           - Either team not fielding a Jammer for the Jam{'\n'}
           - A team fielding too many Skaters during a Jam which results in an advantage that cannot be removed by the removal of the extra Skater(s){'\n'}
           - A team successfully requesting a Team Timeout when they have none remaining{'\n'}
-          - A team member who is neither the Captain nor the Designated Alternate successfully requesting a Team Timeout or Official Review{'\n'}
+          - A team member who is neither the Captain nor the Designated Alternate successfully requesting a Team Timeout or Official Review
         </Text>
         <Divider styleName="empty" />
         <Text styleName="multiline">
@@ -251,7 +251,7 @@ export default class Penalties extends React.Component {
           - Engaging in dangerous and illegal actions that pose a substantial hazard to oneself or another{'\n'}
           - Disrespectful contact to an Official or forcible contact which is negligent or avoidable{'\n'}
           - Being abusive toward another person{'\n'}
-          - Failure to abide by Governing Body policies during the game pertaining to players, team support staff, and the immediate play area{'\n'}
+          - Failure to abide by Governing Body policies during the game pertaining to players, team support staff, and the immediate play area
         </Text>
         <Divider styleName="empty" />
         <Text styleName="multiline">
@@ -271,7 +271,7 @@ export default class Penalties extends React.Component {
         <Divider styleName="empty" />
         <Text styleName="multiline">
           - If a Skater stands early, their time stops until they are seated again.{'\n'}
-          - If a Skater does not stand in a manner that makes it clear to Officials, Skaters, and spectators that they are serving their final 10 seconds, their timing stops until they stand.{'\n'}
+          - If a Skater does not stand in a manner that makes it clear to Officials, Skaters, and spectators that they are serving their final 10 seconds, their timing stops until they stand.
         </Text>
         <Divider styleName="empty" />
         <Text styleName="multiline">
@@ -322,7 +322,7 @@ export default class Penalties extends React.Component {
         <Divider styleName="empty" />
         <Text styleName="multiline">
           - the two Jammers serve an equivalent amount of penalty time, per penalty{'\n'}
-          - whenever possible given point 1, there is at least one Jammer who is not serving a penalty{'\n'}
+          - whenever possible given point 1, there is at least one Jammer who is not serving a penalty
         </Text>
         <Divider styleName="empty" />
         <Text styleName="multiline">

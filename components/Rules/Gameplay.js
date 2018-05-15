@@ -254,7 +254,7 @@ export default class Gameplay extends React.Component {
           <Divider styleName="empty" />
           <Text styleName="multiline">
             - the Jammer is upright and in-bounds during the pass, or{'\n'}
-            - another Skater skates behind the in-bounds Jammer, giving up their position{'\n'}
+            - another Skater skates behind the in-bounds Jammer, giving up their position
           </Text>
           <Divider styleName="empty" />
           <Text styleName="multiline">
@@ -266,7 +266,7 @@ export default class Gameplay extends React.Component {
             - leaves the track due to injury{'\n'}
             - leaves the track temporarily to fix equipment or skates{'\n'}
             - was not part of the Jam in the first place (because their team did not field the maximum number of Skaters){'\n'}
-            - returns to active gameplay behind the Jammer{'\n'}
+            - returns to active gameplay behind the Jammer
           </Text>
           <Divider styleName="empty" />
           <Text styleName="multiline">
