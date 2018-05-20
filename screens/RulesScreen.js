@@ -24,18 +24,18 @@ const sections = [
     title: 'Gameplay',
     content: <Gameplay />
   },
-  // {
-  //   title: 'Scoring',
-  //   content: <Scoring />
-  // },
+  {
+    title: 'Scoring',
+    content: <Scoring />
+  },
   {
     title: 'Penalties',
     content: <Penalties />
   },
-  // {
-  //   title: 'Officiating',
-  //   content: <Officiating />
-  // }
+  {
+    title: 'Officiating',
+    content: <Officiating />
+  }
 ];
 
 export default class RulesScreen extends React.Component {
