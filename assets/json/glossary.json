@@ -259,6 +259,14 @@
 		{
 			"word": "Warning",
 			"definition": "A formal verbal indication from the Official that play is currently or is about to be improper, so that a Skater can take corrective action."
+		},
+		{
+			"word": "Pace",
+			"definition": "Brisk pace is greater than five laps per minute.{'\n'}Moderate pace is three to five laps per minute."
+		},
+		{
+			"word": "Without Breaking Stride",
+			"definition": "A skater starts by striding in one direction and, using the same rhythm as established skating stride, executes a transition and/or recovery tactic and continues skating at prior established stride without a noticeable change in pace or rhythm."
 		}
 	]
 }
