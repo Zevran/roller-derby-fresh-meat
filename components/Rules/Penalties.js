@@ -1,5 +1,8 @@
 import React from 'react';
-import { View, Title, Subtitle, Text, Divider } from '@shoutem/ui';
+import { View, ImagePreview, Title, Subtitle, Text, Divider } from '@shoutem/ui';
+
+const BlockingZonesImage = require('../../assets/images/rules/blocking_zones.png');
+const ContactZonesImage = require('../../assets/images/rules/contact_zones.png');
 
 export default class Penalties extends React.Component {
 
@@ -63,7 +66,7 @@ export default class Penalties extends React.Component {
         </Text>
         <Divider styleName="empty" />
 
-          **ToDo _images/target_zones.svg**
+        <ImagePreview source={ContactZonesImage} width={371} height={342} />
 
         <Text>
           Fig. 4.2 Legal Target Zones
@@ -99,7 +102,7 @@ export default class Penalties extends React.Component {
         </Text>
         <Divider styleName="empty" />
 
-          **ToDo _images/blocking_zones.svg**
+        <ImagePreview source={BlockingZonesImage} width={371} height={342} />
 
         <Text styleName="multiline">
           Fig. 4.4 Legal Blocking Zones
