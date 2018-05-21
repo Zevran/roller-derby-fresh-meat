@@ -165,6 +165,10 @@
 			"definition": "A Blocker who is in bounds, but positioned outside of the Engagement Zone. If no Pack is defined, all Blockers are out of play. When a Jammer is out of bounds, they are out of play."
 		},
 		{
+			"word": "Pace",
+			"definition": "Brisk pace is greater than five laps per minute.\nModerate pace is three to five laps per minute."
+		},
+		{
 			"word": "Pack",
 			"definition": "The largest group of in bounds Blockers, skating or standing in proximity (within 10 ft/3.05m), containing members from both teams. The Jammers are independent of this definition."
 		},
@@ -259,10 +263,6 @@
 		{
 			"word": "Warning",
 			"definition": "A formal verbal indication from the Official that play is currently or is about to be improper, so that a Skater can take corrective action."
-		},
-		{
-			"word": "Pace",
-			"definition": "Brisk pace is greater than five laps per minute.{'\n'}Moderate pace is three to five laps per minute."
 		},
 		{
 			"word": "Without Breaking Stride",
