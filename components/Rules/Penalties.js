@@ -1,4 +1,5 @@
 import React from 'react';
+import { Dimensions } from 'react-native';
 import { View, ImagePreview, Title, Subtitle, Text, Divider } from '@shoutem/ui';
 
 const BlockingZonesImage = require('../../assets/images/rules/blocking_zones.png');
@@ -7,6 +8,9 @@ const ContactZonesImage = require('../../assets/images/rules/contact_zones.png')
 export default class Penalties extends React.Component {
 
   render() {
+    const screenWidth = Dimensions.get('window').width;
+    const imageWidth = screenWidth - 30;
+
     return (
       <View>
         <Text styleName="multiline bold">
@@ -66,7 +70,7 @@ export default class Penalties extends React.Component {
         </Text>
         <Divider styleName="empty" />
 
-        <ImagePreview source={ContactZonesImage} width={371} height={342} />
+        <ImagePreview source={ContactZonesImage} width={imageWidth} height={imageWidth / 1.09} />
 
         <Text>
           Fig. 4.2 Legal Target Zones
@@ -102,7 +106,7 @@ export default class Penalties extends React.Component {
         </Text>
         <Divider styleName="empty" />
 
-        <ImagePreview source={BlockingZonesImage} width={371} height={342} />
+        <ImagePreview source={BlockingZonesImage} width={imageWidth} height={imageWidth / 1.09} />
 
         <Text styleName="multiline">
           Fig. 4.4 Legal Blocking Zones

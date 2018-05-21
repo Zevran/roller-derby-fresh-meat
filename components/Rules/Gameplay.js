@@ -1,4 +1,5 @@
 import React from 'react';
+import { Dimensions } from 'react-native';
 import { View, ImagePreview, Title, Subtitle, Text, Divider } from '@shoutem/ui'
 
 const BlockingZonesImage = require('../../assets/images/rules/blocking_zones.png');
@@ -8,6 +9,9 @@ const TrackDimensionsImage = require('../../assets/images/rules/track_dimensions
 export default class Gameplay extends React.Component {
 
   render() {
+    const screenWidth = Dimensions.get('window').width;
+    const imageWidth = screenWidth - 30;
+
     return (
       <View>
           <Title>
@@ -30,7 +34,7 @@ export default class Gameplay extends React.Component {
           </Text>
           <Divider styleName="empty" />
 
-          <ImagePreview source={TrackDimensionsImage} width={816} height={576} />
+          <ImagePreview source={TrackDimensionsImage} width={imageWidth} height={imageWidth / 1.42} />
 
           <Text styleName="multiline">
             Fig. 2.2 The Track. (Track Layout and Design © 2002 Electra Blu/Amy Sherman, Texas Rollergirls, used here with permission.)
@@ -214,7 +218,7 @@ export default class Gameplay extends React.Component {
           </Text>
           <Divider styleName="empty" />
 
-          <ImagePreview source={ContactZonesImage} width={371} height={342} />
+          <ImagePreview source={ContactZonesImage} width={imageWidth} height={imageWidth / 1.09} />
 
           <Text>
             Fig. 2.4 Legal Target Zones
@@ -228,7 +232,7 @@ export default class Gameplay extends React.Component {
           </Text>
           <Divider styleName="empty" />
 
-          <ImagePreview source={BlockingZonesImage} width={371} height={342} />
+          <ImagePreview source={BlockingZonesImage} width={imageWidth} height={imageWidth / 1.09} />
 
           <Text>
             Fig. 2.6 Legal Blocking Zones
