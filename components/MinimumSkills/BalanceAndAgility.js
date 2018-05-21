@@ -1,16 +1,21 @@
 import React from 'react';
+import { Dimensions } from 'react-native';
 import {
   View,
   Row,
   Text,
   Tile,
   Subtitle,
-  Divider
+  Divider,
+  Video
 } from '@shoutem/ui';
 
 export default class BalanceAndAgility extends React.Component {
 
   render() {
+    const screenWidth = Dimensions.get('window').width;
+    const videoWidth = screenWidth - 30;
+
     return (
       <View>
         <Row>
@@ -38,6 +43,13 @@ export default class BalanceAndAgility extends React.Component {
             Jumps with both feet simultaneously, but does not have to land with both feet simultaneously.{'\n'}
             Hops laterally at least 18 inches (45.5 centimeters) from a brisk forward speed.
           </Text>
+          <Divider styleName="empty" />
+          <Video
+            source={{ uri: 'https://www.youtube.com/watch?v=VwNLLnoymi8' }}
+            height={200}
+            width={videoWidth}
+            styleName="container"
+          />
         </Tile>
         <Divider styleName="line" />
         <Tile styleName="md-gutter">
@@ -45,6 +57,13 @@ export default class BalanceAndAgility extends React.Component {
           <Text styleName="multiline">
             Comfortably looks left, right, and behind quickly and unexpectedly while maintaining regular skating stride at a moderate pace.
           </Text>
+          <Divider styleName="empty" />
+          <Video
+            source={{ uri: 'https://www.youtube.com/watch?v=4Lzjelw26FM' }}
+            height={200}
+            width={videoWidth}
+            styleName="container"
+          />
         </Tile>
         <Divider styleName="line" />
         <Tile styleName="md-gutter">
@@ -53,6 +72,13 @@ export default class BalanceAndAgility extends React.Component {
             Maneuvers through 10 cones, each no more than five feet (1.5 meters) apart (not to exceed 50 feet or 15 meters), placed through the straightaways and track turns, in less than six seconds.{'\n'}
             Weaves comfortably and briskly through a moderately moving pack of skaters without focusing on their own feet.
           </Text>
+          <Divider styleName="empty" />
+          <Video
+            source={{ uri: 'https://www.youtube.com/watch?v=RcAwF6VH26c' }}
+            height={200}
+            width={videoWidth}
+            styleName="container"
+          />
         </Tile>
         <Divider styleName="line" />
         <Tile styleName="md-gutter">
@@ -63,6 +89,13 @@ export default class BalanceAndAgility extends React.Component {
             Turns clockwise and counterclockwise from back to front.{'\n'}
             Turns 360° without breaking stride, from a moderate pace. Using two 180° turns in a row, without breaking stride, is acceptable.
           </Text>
+          <Divider styleName="empty" />
+          <Video
+            source={{ uri: 'https://www.youtube.com/watch?v=qwWLe6qGvwo' }}
+            height={200}
+            width={videoWidth}
+            styleName="container"
+          />
         </Tile>
       </View>
     );

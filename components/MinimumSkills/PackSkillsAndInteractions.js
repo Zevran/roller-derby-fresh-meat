@@ -1,16 +1,21 @@
 import React from 'react';
+import { Dimensions } from 'react-native';
 import {
   View,
   Row,
   Text,
   Tile,
   Subtitle,
-  Divider
+  Divider,
+  Video
 } from '@shoutem/ui';
 
 export default class PackSkillsAndInteractions extends React.Component {
 
   render() {
+    const screenWidth = Dimensions.get('window').width;
+    const videoWidth = screenWidth - 30;
+
     return (
       <View>
         <Row>
@@ -29,6 +34,13 @@ export default class PackSkillsAndInteractions extends React.Component {
             Consistently demonstrates the ability, judgment and timing to take a whip off another skater’s body or clothing without pulling the other skater off-balance.{'\n'}
             Consistently demonstrates the stability to provide hip and clothing whips without getting pulled off-balance.
           </Text>
+          <Divider styleName="empty" />
+          <Video
+            source={{ uri: 'https://www.youtube.com/watch?v=2z7le6fKd1I' }}
+            height={200}
+            width={videoWidth}
+            styleName="container"
+          />
         </Tile>
         <Divider styleName="line" />
         <Tile styleName="md-gutter">
@@ -43,6 +55,13 @@ export default class PackSkillsAndInteractions extends React.Component {
             Uses momentum provided from a forward push to accelerate and begins skating within two seconds of push.{'\n'}
             Maintains form and balance while receiving push forward, to left and/or right.{'\n'}
           </Text>
+          <Divider styleName="empty" />
+          <Video
+            source={{ uri: 'https://www.youtube.com/watch?v=tQ0SA7EhbfE' }}
+            height={200}
+            width={videoWidth}
+            styleName="container"
+          />
         </Tile>
         <Divider styleName="line" />
         <Tile styleName="md-gutter">
@@ -50,6 +69,13 @@ export default class PackSkillsAndInteractions extends React.Component {
           <Text styleName="multiline">
             Adjusts to the variable speeds (decrease/increase) of a pace line while maintaining an arms-length distance from other skaters without falling, tripping, overtaking or running into another skater.
           </Text>
+          <Divider styleName="empty" />
+          <Video
+            source={{ uri: 'https://www.youtube.com/watch?v=29_MYCKvE9k' }}
+            height={200}
+            width={videoWidth}
+            styleName="container"
+          />
         </Tile>
         <Divider styleName="line" />
         <Tile styleName="md-gutter">
@@ -57,6 +83,13 @@ export default class PackSkillsAndInteractions extends React.Component {
           <Text styleName="multiline">
             Demonstrates weaving through a single-file line of skaters, each an arm’s length apart, at amoderate pace.
           </Text>
+          <Divider styleName="empty" />
+          <Video
+            source={{ uri: 'https://www.youtube.com/watch?v=LAg4fRwJCjw' }}
+            height={200}
+            width={videoWidth}
+            styleName="container"
+          />
         </Tile>
         <Divider styleName="line" />
         <Tile styleName="md-gutter">
@@ -65,6 +98,13 @@ export default class PackSkillsAndInteractions extends React.Component {
             Testing all skaters in a pack of 4-10 moving at a moderate pace. All skaters demonstrate the ability to perform safe knee taps and slides at unexpected times in the pack. Pack skaters must avoid the downed skater(s) without going out of bounds, falling over them or causing unnecessary hazard.{'\n'}
             Demonstrates the ability to recover balance after bumping skates or locking wheels with another skater.
           </Text>
+          <Divider styleName="empty" />
+          <Video
+            source={{ uri: 'https://www.youtube.com/watch?v=4K5TsoOEhFo' }}
+            height={200}
+            width={videoWidth}
+            styleName="container"
+          />
         </Tile>
       </View>
     );

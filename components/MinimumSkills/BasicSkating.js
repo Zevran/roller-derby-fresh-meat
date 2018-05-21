@@ -1,4 +1,5 @@
 import React from 'react';
+import { Dimensions } from 'react-native';
 import {
   View,
   Text,
@@ -6,11 +7,15 @@ import {
   Subtitle,
   Icon,
   Divider,
+  Video
 } from '@shoutem/ui';
 
 export default class BasicSkating extends React.Component {
 
   render() {
+    const screenWidth = Dimensions.get('window').width;
+    const videoWidth = screenWidth - 30;
+
     return (
       <View>
         <Tile styleName="md-gutter">
@@ -20,6 +25,13 @@ export default class BasicSkating extends React.Component {
             Demonstrates stability, with center of gravity down and forward.{'\n'}
             Demonstrates ability to skate low with bent, flexible knees.
           </Text>
+          <Divider styleName="empty" />
+          <Video
+            source={{ uri: 'https://www.youtube.com/watch?v=Q9U9W9oebBo' }}
+            height={200}
+            width={videoWidth}
+            styleName="container"
+          />
         </Tile>
         <Divider styleName="line" />
         <Tile styleName="md-gutter">
@@ -29,6 +41,13 @@ export default class BasicSkating extends React.Component {
             Uses both feet to push forward on straightaways.{'\n'}
             Shifts weight completely from foot to foot without stumbling.
           </Text>
+          <Divider styleName="empty" />
+          <Video
+            source={{ uri: 'https://www.youtube.com/watch?v=hcS5v6f_O7U' }}
+            height={200}
+            width={videoWidth}
+            styleName="container"
+          />
         </Tile>
         <Divider styleName="line" />
         <Tile styleName="md-gutter">
@@ -38,6 +57,13 @@ export default class BasicSkating extends React.Component {
             Uses both feet to push during crossovers.{'\n'}
             Performs reverse crossovers, crossing over the right foot to the outside of the track.
           </Text>
+          <Divider styleName="empty" />
+          <Video
+            source={{ uri: 'https://www.youtube.com/watch?v=hJwKQE6HR2Q' }}
+            height={200}
+            width={videoWidth}
+            styleName="container"
+          />
         </Tile>
         <Divider styleName="line" />
         <Tile styleName="md-gutter">
@@ -53,6 +79,13 @@ export default class BasicSkating extends React.Component {
           <Text styleName="multiline">
             Skater must come to a complete stop from a brisk pace within four seconds, using proper form and without losing balance.
           </Text>
+          <Divider styleName="empty" />
+          <Video
+            source={{ uri: 'https://www.youtube.com/watch?v=_M6Moa8a9EY' }}
+            height={200}
+            width={videoWidth}
+            styleName="container"
+          />
         </Tile>
         <Divider styleName="line" />
         <Tile styleName="md-gutter">
@@ -92,6 +125,13 @@ export default class BasicSkating extends React.Component {
             Backwards skating within track boundaries.{'\n'}
             Maintains moderate pace skating backward around the entire track.
           </Text>
+          <Divider styleName="empty" />
+          <Video
+            source={{ uri: 'https://www.youtube.com/watch?v=hd3B6zV11SI' }}
+            height={200}
+            width={videoWidth}
+            styleName="container"
+          />
         </Tile>
         <Divider styleName="line" />
       </View>

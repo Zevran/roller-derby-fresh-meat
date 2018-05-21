@@ -1,23 +1,35 @@
 import React from 'react';
+import { Dimensions } from 'react-native';
 import {
   View,
   Row,
   Text,
   Tile,
   Subtitle,
-  Divider
+  Divider,
+  Video
 } from '@shoutem/ui';
 
 export default class Blocking extends React.Component {
 
   render() {
+    const screenWidth = Dimensions.get('window').width;
+    const videoWidth = screenWidth - 30;
+
     return (
       <View>
-        <Row>
+        <Tile styleName="md-gutter">
           <Text styleName="multiline">
             Skater must demonstrate the ability to perform the following skills without fouling other skaters while skating at a moderate pace.
           </Text>
-        </Row>
+          <Divider styleName="empty" />
+          <Video
+            source={{ uri: 'https://www.youtube.com/watch?v=a5LplKsJhV4' }}
+            height={200}
+            width={videoWidth}
+            styleName="container"
+          />
+        </Tile>
         <Divider styleName="line" />
         <Tile styleName="md-gutter">
           <Subtitle>Taking Hits</Subtitle>

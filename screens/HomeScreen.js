@@ -50,7 +50,7 @@ export default class HomeScreen extends React.Component {
           <Text>Use-cases view according to rules</Text>
         </Row>
         <Row>
-          <Icon name="checkbox-off" />
+          <Icon name="checkbox-on" />
           <Text>Minimum skills view with related videos</Text>
         </Row>
 

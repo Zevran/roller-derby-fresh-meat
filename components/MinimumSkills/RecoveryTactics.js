@@ -1,16 +1,21 @@
 import React from 'react';
+import { Dimensions } from 'react-native';
 import {
   View,
   Row,
   Text,
   Tile,
   Subtitle,
-  Divider
+  Divider,
+  Video
 } from '@shoutem/ui';
 
 export default class RecoveryTactics extends React.Component {
 
   render() {
+    const screenWidth = Dimensions.get('window').width;
+    const videoWidth = screenWidth - 30;
+
     return (
       <View>
         <Row>
@@ -29,6 +34,13 @@ export default class RecoveryTactics extends React.Component {
             Recovers from knee tap without using hands to get up.{'\n'}
             Performs two consecutive single knee taps in stride, with low recovery.
           </Text>
+          <Divider styleName="empty" />
+          <Video
+            source={{ uri: 'https://www.youtube.com/watch?v=mOtKiL8I2-I' }}
+            height={200}
+            width={videoWidth}
+            styleName="container"
+          />
         </Tile>
         <Divider styleName="line" />
         <Tile styleName="md-gutter">
@@ -39,6 +51,13 @@ export default class RecoveryTactics extends React.Component {
             Recovers without using hands to get up.{'\n'}
             Momentum used to initiate the slide is continued into the recovery to normal skating motion.
           </Text>
+          <Divider styleName="empty" />
+          <Video
+            source={{ uri: 'https://www.youtube.com/watch?v=zjRWjHb3240' }}
+            height={200}
+            width={videoWidth}
+            styleName="container"
+          />
         </Tile>
       </View>
     );
