@@ -14,6 +14,12 @@ export default class HomeScreen extends React.Component {
     title: 'Home',
   };
 
+  async componentWillMount () {
+    const currentLocale = await Expo.DangerZone.Localization.getCurrentLocaleAsync();
+    const locales = await Expo.DangerZone.Localization.getPreferredLocalesAsync();
+    console.log(currentLocale, locales);
+  }
+
   render() {
     return (
       <View>
