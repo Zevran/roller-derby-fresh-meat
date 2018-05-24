@@ -38,8 +38,6 @@ export default class GlossaryScreen extends React.Component {
       return (result !== -1) ? true : false;
     });
 
-    console.log(filteredGlossary.length);
-
     this.setState({
       glossary: filteredGlossary,
       searchValue: input
