@@ -1,12 +1,22 @@
 import React from 'react';
 import { Dimensions } from 'react-native';
-import { View, ImagePreview, Title, Subtitle, Text, Divider } from '@shoutem/ui'
+import {
+  View,
+  ImagePreview,
+  Title,
+  Subtitle,
+  Text,
+  Divider,
+  Button,
+  Icon
+} from '@shoutem/ui'
+import { withNavigation } from 'react-navigation';
 
 const BlockingZonesImage = require('../../assets/images/rules/blocking_zones.png');
 const ContactZonesImage = require('../../assets/images/rules/contact_zones.png');
 const TrackDimensionsImage = require('../../assets/images/rules/track_dimensions.png');
 
-export default class Gameplay extends React.Component {
+class Gameplay extends React.Component {
 
   render() {
     const screenWidth = Dimensions.get('window').width;
@@ -58,6 +68,17 @@ export default class Gameplay extends React.Component {
           <Text styleName="multiline">
             Any Skaters who are not completely on the track or serving a penalty (in or on their way to the Penalty Box) at the Jam-Starting Whistle may not participate in the Jam (and thus do not count toward these limits). Any Skaters who are partially illegally positioned (but are still on the track; for example, a Jammer who is touching past the Jammer Line) are required to yield their position to all other Skaters in the immediate vicinity, and are not considered to have joined the Jam until they have done so. Any Skaters who are wholly illegally positioned are immediately penalized.
           </Text>
+          <Divider styleName="empty" />
+          <Button onPress={() => {
+              const content = require('../../assets/json/usecases/en/2.2-positions.json').scenarios;
+              this.props.navigation.navigate('UseCases', {
+                title: 'Positions',
+                content
+              });
+            }}>
+            <Text>VIEW USE CASES</Text>
+            <Icon name="right-arrow" />
+          </Button>
           <Divider styleName="empty" />
           <Subtitle>
             2.2.1. Jammers
@@ -280,3 +301,5 @@ export default class Gameplay extends React.Component {
     );
   }
 }
+
+export default withNavigation(Gameplay);

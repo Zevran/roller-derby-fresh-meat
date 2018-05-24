@@ -1,0 +1,56 @@
+{
+    "scenarios": [
+        {
+            "title": "Scenario C2.2.A",
+            "description": "As the Jam-Starting Whistle sounds, Red Jammer’s left skate has rolled forward, past the Jammer Line.",
+            "outcome": "Red Jammer is issued a False Start warning and must yield their position to all Skaters in their immediate vicinity. If they do not yield, they will receive a penalty.",
+            "rationale": "Red Jammer established their starting position partially out of position, with one skate ahead of the Jammer Line.",
+            "keepinminds": [
+                "Until they have been issued this warning, they cannot be penalized for failure to yield."
+            ]
+        },
+        {
+            "title": "Scenario C2.2.B",
+            "description": "As the Jam-Starting Whistle sounds, White Pivot has lined up entirely in front of the Pivot Line.",
+            "outcome": "White Pivot immediately receives a penalty for illegal positioning.",
+            "rationale": "White Pivot was entirely out of position, having both skates ahead of the Pivot Line. They are immediately penalized, rather than warned and allowed to yield, because this is a flagrant violation of the rules regarding starting positions.",
+            "keepinminds": [
+            ]
+        },
+        {
+            "title": "Scenario C2.2.C",
+            "description": "As the Jam-Starting Whistle sounds, White Blocker is out of bounds on the inside of the track.",
+            "outcome": "White Blocker is directed to return to their bench and cannot participate in the Jam.",
+            "rationale": "White Blocker was not on the track at the start of the Jam and cannot participate in that Jam.",
+            "keepinminds": [
+                "Even if White Blocker were straddling, they would still be considered out of bounds, thus not on the track, thus not allowed to participate in the Jam."
+            ]
+        },
+        {
+            "title": "Scenario C2.2.D",
+            "description": "All White Blockers (including White Pivot) line up legally between Jams at the Pivot Line, but not touching the line. Red Pivot lines up behind them. Immediately before the Jam starts, Red Pivot reaches forward with their leg and places their skate on the Pivot Line.",
+            "outcome": "The White Non-Pivot Blockers should all be issued False Start warnings, and must yield their positions to all nearby Skaters; any who do not yield should receive a penalty.",
+            "rationale": "Red Pivot established their position in contact with the Pivot Line before the beginning of the Jam, so Non-Pivot Blockers must begin the Jam behind the hips of any Pivots in contact with the Pivot Line. All White Blockers began the Jam in front of Red Pivot, so all but the White Pivot are required to yield.",
+            "keepinminds": [
+            ]
+        },
+        {
+            "title": "Scenario C2.2.E",
+            "description": "In an attempt to reach the track before the Jam begins, Red Blocker jumps from out of bounds. The Jam-Starting Whistle blows while they are still airborne. Red Blocker lands in bounds and upright after the Jam begins.",
+            "outcome": "Red Blocker attempted to enter the track from an out of bounds state and was still airborne at the start of the Jam. They should be ordered back to their bench and may not participate in the Jam.",
+            "rationale": "While airborne, a Skater retains the attributes of their previous status. Red Blocker’s previous status was out of bounds. As such, they remain out of bounds while airborne. Red Blocker was not on the track when the Jam began.",
+            "keepinminds": [
+            ]
+        },
+        {
+            "title": "Scenario C2.2.F",
+            "description": "White Pivot is seated in the Penalty Box. Between Jams, three White Blockers–one of whom is wearing a Stripe–line up on the track.",
+            "outcome": "If the Jam starts with two White Skaters wearing the Stripe, the Officials should direct the White Blocker on the track to remove their Stripe.",
+            "rationale": "The Skater seated in the Box is considered to be the White Pivot for the Jam. As the White team fielded the correct number of Blockers, there is no need to send the “extra” White Pivot back to their bench.",
+            "keepinminds": [
+                "If the White Blocker refuses to remove the Stripe, that White Blocker should be penalized. Refusal to obey an instruction about improper gameplay is insubordinate.",
+                "If the White Blocker engages in any privileges reserved for the Pivot before they have removed the Stripe, even if no warning has yet been issued, that White Blocker should be penalized, as their illegal Stripe had impact on the game."
+            ]
+        }
+    ]
+}

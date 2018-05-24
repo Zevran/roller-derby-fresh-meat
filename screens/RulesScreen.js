@@ -11,33 +11,6 @@ import Scoring from '../components/Rules/Scoring';
 import Penalties from '../components/Rules/Penalties';
 import Officiating from '../components/Rules/Officiating';
 
-const sections = [
-  {
-    title: 'Summary',
-    content: <Summary />
-  },
-  {
-    title: 'Game parameters & safety',
-    content: <GameParametersAndSafety />
-  },
-  {
-    title: 'Gameplay',
-    content: <Gameplay />
-  },
-  {
-    title: 'Scoring',
-    content: <Scoring />
-  },
-  {
-    title: 'Penalties',
-    content: <Penalties />
-  },
-  {
-    title: 'Officiating',
-    content: <Officiating />
-  }
-];
-
 export default class RulesScreen extends React.Component {
   static navigationOptions = {
     title: 'Rules',
@@ -64,6 +37,34 @@ export default class RulesScreen extends React.Component {
   }
 
   render() {
+
+    const sections = [
+      {
+        title: 'Summary',
+        content: <Summary />
+      },
+      {
+        title: 'Game parameters & safety',
+        content: <GameParametersAndSafety />
+      },
+      {
+        title: 'Gameplay',
+        content: <Gameplay />
+      },
+      {
+        title: 'Scoring',
+        content: <Scoring />
+      },
+      {
+        title: 'Penalties',
+        content: <Penalties />
+      },
+      {
+        title: 'Officiating',
+        content: <Officiating />
+      }
+    ];
+
     return (
       <View>
         <ScrollView>
