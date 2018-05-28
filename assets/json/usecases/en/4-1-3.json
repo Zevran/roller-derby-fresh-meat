@@ -1,0 +1,63 @@
+{
+    "scenarios": [
+        {
+            "title": "Scenario C4.1.3.A",
+            "description": "White Pivot stands still on their toe stops and initiates a block against Red Jammer. Red Jammer does not fall, but is brought to a stop. Red Jammer counter-blocks, but White Pivot continues to block while on their toe stops and Red Jammer is unable to get past.",
+            "outcome": "White Pivot is penalized.",
+            "rationale": "If Red Jammer loses position or has their momentum or trajectory severely affected by a block initiated in an unexpected way, the initiator should receive a penalty. In this example, if White Pivot had not maintained their stopped block but instead returned to counterclockwise skating, allowing Red Jammer to maintain part of their momentum, it would not have resulted in a penalty.",
+            "keepinminds": [
+            ]
+        },
+        {
+            "title": "Scenario C4.1.3.B",
+            "description": "Red Blocker uses a legal blocking zone to initiate a block to a legal target zone of White Blocker. White Blocker is pushed until one skate is in bounds and one skate is out of bounds. Red Blocker continues to block until White Blocker is fully out of bounds. Red Blocker re-initiates a new block that knocks White Blocker down.",
+            "outcome": "Red Blocker is penalized.",
+            "rationale": "A Skater should not expect to be blocked while out of bounds. It is only legal to block a Skater who is in bounds or straddling. The additional new block is what warrants the penalty.",
+            "keepinminds": [
+            ]
+        },
+        {
+            "title": "Scenario C4.1.3.C",
+            "description": "Red Blocker is knocked out of bounds and recycled to the rear of the Pack. They accelerate and move in bounds, directly into White Blocker, who falls.",
+            "outcome": "Red Blocker is penalized.",
+            "rationale": "Even if the target and blocking zones were legal and both Skaters were in bounds, Red Blocker gained an unexpected advantage by accelerating while out of bounds into the block. White Blocker should not expect to be blocked by an out of bounds opponent.",
+            "keepinminds": [
+            ]
+        },
+        {
+            "title": "Scenario C4.1.3.D",
+            "description": "Red Blocker is knocked out of bounds by White Blocker, who also goes out of bounds, leaving an opening on the inside line. The out of bounds Red Blocker grabs the in bounds Red Jammer by the hips and pushes them past the in bounds White Blockers.",
+            "outcome": "Red Blocker is penalized.",
+            "rationale": "The threshold for penalization of assists follows similar metrics to blocks. They cannot come from a place where one’s opponent would not expect an assist to happen, such as out of bounds, while down, or while stopped. Because the Red Blocker could not legally be blocked, it would also be illegal to prevent the assist, giving Red Blocker another unfair advantage.",
+            "keepinminds": [
+            ]
+        },
+        {
+            "title": "Scenario C4.1.3.E",
+            "description": "White Blocker, having lined up just in front of the Jammer Line, is hit by Red Blocker attempting to take the same space. White Blocker falls out of bounds before the Jam-Starting Whistle.",
+            "outcome": "Red Blocker is penalized for blocking before the Jam started. White Blocker is allowed to participate in this Jam.",
+            "rationale": "It is illegal to block before a Jam has begun. Because White Blocker was not in the correct position due to an opponent’s illegal action, they can return to the track.",
+            "keepinminds": [
+                "Should White Blocker be blocked into a false starting position rather than out of bounds, White Blocker is allowed to participate as usual in the Jam (without the need to yield) and Red Blocker still receives a penalty for blocking before the Jam started."
+            ]
+        },
+        {
+            "title": "Scenario C4.1.3.F",
+            "description": "White Blocker initiates a hit on Red Jammer during the Jam-Ending Signal. Red Jammer stumbles significantly off balance after the Jam-Ending Signal.",
+            "outcome": "White Blocker initiated legally before the end of the Jam. No penalty.",
+            "rationale": "It is illegal to block after a Jam has ended. It is, however, legal to initiate during the Jam-Ending Signal, even if the outcome happens once the Jam has ended.",
+            "keepinminds": [
+                "Should that same hit start after the Jam-Ending Signal, Red Jammer need not fall nor be knocked out of bounds. Being hit significantly off balance after the Jam-Ending Signal is sufficient to penalize the initiator of that hit."
+            ]
+        },
+        {
+            "title": "Scenario C4.1.3.G",
+            "description": "Red Jammer is 18 ft (5.48m) ahead of the Pack alongside White Pivot. They continue to skate, and an Official gives an Out of Play warning to White Pivot. White Pivot continues to skate alongside Red Jammer, and then blocks Red Jammer, making hip-to-hip contact. Red Jammer counter-blocks White Pivot. White Pivot falls as a result.",
+            "outcome": "White Pivot is penalized. Red Jammer is not.",
+            "rationale": "White Pivot received an Out of Play warning and failed to immediately attempt to return to the Engagement Zone; rather, they continued to block Red Jammer. Skaters who are illegally blocked while out of play may legally counter-block, so Red Jammer’s actions do not warrant a penalty.",
+            "keepinminds": [
+                "If Red Jammer’s action was not a counter-block, but instead a separate and distinct initiation of a block, Red Jammer should be penalized as White Pivot falling is enough impact to warrant a penalty for illegal contact."
+            ]
+        }
+    ]
+}

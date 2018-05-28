@@ -1,0 +1,14 @@
+{
+    "scenarios": [
+        {
+            "title": "Scenario C4.1.4.A",
+            "description": "Red Blockers form a three-person wall, separating White Pivot from the other White Blockers. The middle Red Blocker hooks arms with the outside Red Blocker. White Pivot initiates a block against the middle and outside Red Blockers, attempting to drive between the two Skaters, but fails to make any progress. All Blockers remain upright.",
+            "outcome": "The middle Red Blocker was most responsible for hooking arms and should receive a penalty.",
+            "rationale": "The middle and outside Red Blockers gained an advantage by creating a link that White Pivot cannot break. Once White Pivot challenged that link, their action became worthy of a penalty.",
+            "keepinminds": [
+                "If it cannot be determined who initiated the link, then the Skater closest to the Referee calling the penalty should be penalized.",
+                "If the middle Red Blocker had also been hooked to the inside Red Blocker, no additional penalty would be warranted because White Pivot did not attempt to get between those two linked opponents."
+            ]
+        }
+    ]
+}

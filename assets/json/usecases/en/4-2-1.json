@@ -1,0 +1,98 @@
+{
+    "scenarios": [
+        {
+            "title": "Scenario C4.2.1.A",
+            "description": "Red Pivot is the only Red Blocker on track. White Pivot forces Red Pivot out of bounds.",
+            "outcome": "Officials declare a No Pack situation. No penalty.",
+            "rationale": "The destruction of the Pack occurred as a result of normal gameplay. It should not be considered an illegal Pack destruction.",
+            "keepinminds": [
+            ]
+        },
+        {
+            "title": "Scenario C4.2.1.B",
+            "description": "Red Pivot is the only Red Blocker on the track. Red Pivot attempts to block White Jammer as they pass. Red Pivot misses, and ends up out of bounds.",
+            "outcome": "Officials declare a No Pack situation. No penalty.",
+            "rationale": "The destruction of the Pack occurred as a result of normal gameplay. It should not be considered an illegal Pack destruction.",
+            "keepinminds": [
+            ]
+        },
+        {
+            "title": "Scenario C4.2.1.C",
+            "description": "Red Pivot is the only Red Blocker on the track. Red Pivot intentionally skates out of bounds.",
+            "outcome": "Officials declare a No Pack situation. Red Pivot is instructed to remain on the track, and is penalized.",
+            "rationale": "Red Pivot’s illegal action (stepping out of bounds) destroyed the Pack. Red Pivot is the final remaining Red Blocker, and must remain on the track so that a Pack can be formed.",
+            "keepinminds": [
+            ]
+        },
+        {
+            "title": "Scenario C4.2.1.D",
+            "description": "Red Pivot is being blocked by White Pivot and White Blocker. White Pivot forces Red Pivot out of bounds, and Officials declare a No Pack situation. White Pivot and White Blocker immediately skate ahead of Red Pivot, who is now behind all other Blockers. Red Pivot still does not return to the track. As a result, the Pack is unable to be reformed.",
+            "outcome": "Red Pivot is penalized and instructed to return to and remain on the track until another Red Blocker returns to the Pack.",
+            "rationale": "Red Pivot was able to legally re-enter the track once all other Blockers were ahead of them. Red Pivot is not required to return to the track until they can legally do so, and is not required to skate clockwise in order to find a legal re-entry point. In this scenario, however, Red Pivot had a legal opportunity because all other Blockers were ahead of them. Further, Red Pivot did not heed the warning from the Officials, and thus should be penalized for preventing a Pack from reforming. As Red Pivot is the final remaining Red Blocker, they must remain on the track so that a Pack can be formed.",
+            "keepinminds": [
+                "If White Pivot or White Blocker had not skated forward, one or both of them would have been penalized instead of Red Pivot for preventing a Pack from reforming by forcing the only Opposing Blocker to remain out of bounds."
+            ]
+        },
+        {
+            "title": "Scenario C4.2.1.E",
+            "description": "Red Pivot is skating 9 ft (2.74m) behind the White Blockers and 9 ft (2.74m) ahead of the other Red Blockers. Their kneepad slips down their leg, and is no longer protecting their knee. Red Pivot takes themself off the track in order to adjust their equipment, creating a No Pack situation.",
+            "outcome": "Officials declare a No Pack situation. No penalty.",
+            "rationale": "Although Red Pivot’s actions directly caused a No Pack situation, it was in order to resolve a safety issue. Skaters should not be penalized for rectifying a safety issue.",
+            "keepinminds": [
+            ]
+        },
+        {
+            "title": "Scenario C4.2.1.F",
+            "description": "White Jammer removes their helmet cover and attempts to hand it to White Pivot. During this process, the Star falls, touching out of bounds. White Jammer leaves the track to retrieve the helmet cover.",
+            "outcome": "No penalty.",
+            "rationale": "The Jammer and the Pivot may leave the track of their own accord to retrieve a helmet cover that has fallen at least partially out of bounds. Not allowing them to do so would leave them unable to recover the helmet cover.",
+            "keepinminds": [
+            ]
+        },
+        {
+            "title": "Scenario C4.2.1.G",
+            "description": "White Jammer attempts an apex jump and fails to land in bounds. They land fully out of bounds, enter behind all Blockers, and continue to skate.",
+            "outcome": "No penalty.",
+            "rationale": "White Jammer did not have an intention of removing themselves from gameplay.",
+            "keepinminds": [
+                "Should White Jammer successfully make the apex jump but still remove themselves due to the belief that they did not complete it successfully, no penalty would be applicable."
+            ]
+        },
+        {
+            "title": "Scenario C4.2.1.H",
+            "description": "White Jammer is calling off the Jam. They skate out of bounds during the Jam-Ending Whistles.",
+            "outcome": "No penalty.",
+            "rationale": "Skating out of bounds during the four whistles of a Jam call-off does not allow a Skater to score additional points nor gain meaningful advantage over any other Skater.",
+            "keepinminds": [
+            ]
+        },
+        {
+            "title": "Scenario C4.2.1.I",
+            "description": "Immediately after the Jam-Starting Whistle, all Red Blockers remain stationary. All White Blockers skate counterclockwise, resulting in more than 10 ft (3.05m) between any White Blocker and Red Blocker.",
+            "outcome": "Officials declare a No Pack situation. No penalty. Officials assess penalties for failing to reform a Pack, as warranted.",
+            "rationale": "Destroying the Pack penalties are issued when Skaters illegally create a No Pack situation. For a penalty to be issued, one team or Skater must be clearly at fault for the Pack’s destruction. Usually, this will be the team or Skater who changes their speed from the established speed of the Pack. In this scenario, neither team’s speed has changed: Red team remained stationary, while White team skated counterclockwise when the Jam started. As there has been no speed change, neither team is clearly at fault for the Pack’s destruction. No penalty is warranted.",
+            "keepinminds": [
+                "The same principle would apply even if the White team skated clockwise at the start of the Jam."
+            ]
+        },
+        {
+            "title": "Scenario C4.2.1.J",
+            "description": "White Blockers form a four-person wall, blocking Red Jammer at the rear of the Pack when “No Pack” is declared. One White Blocker skates forward to reform the Pack but does not do so for several seconds. The remaining three White Blockers continue to actively block Red Jammer before the Pack is declared reformed.",
+            "outcome": "One of the White Blockers who was actively blocking Red Jammer should be penalized.",
+            "rationale": "All Blockers are obligated to attempt to reform the Pack, not just those who choose to do so. Continued blocking during a No Pack situation is considered a failure to attempt to reform the Pack.",
+            "keepinminds": [
+                "If the Pack had been reformed immediately, no penalty should be issued.",
+                "If all the White Blockers had been accelerating in an attempt to reform the Pack, no penalty should be issued, even if they did so while maintaining their wall and holding Red Jammer back."
+            ]
+        },
+        {
+            "title": "Scenario C4.2.1.K",
+            "description": "Red Jammer passes all members of the Pack except for White Pivot, who forces Red Jammer out of bounds to the outside of the track. While Red Jammer is out of bounds, the Pack skates counterclockwise ahead of Red Jammer. Red Jammer takes several skating strides while out of bounds, counterclockwise, to maintain their position ahead of the Pack and behind White Pivot, before returning in bounds.",
+            "outcome": "Red Jammer is penalized.",
+            "rationale": "Skaters are not allowed to accelerate or maintain speed while out of bounds, unless they are doing so to hasten their return to the track or entry to the penalty box.",
+            "keepinminds": [
+                "Accelerating or maintaining speed while out of bounds in the clockwise direction should not be penalized, as it does not allow the out of bounds Skater to maintain their position relative to in bounds Skaters."
+            ]
+        }
+    ]
+}

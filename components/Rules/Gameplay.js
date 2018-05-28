@@ -70,7 +70,7 @@ class Gameplay extends React.Component {
           </Text>
           <Divider styleName="empty" />
           <Button onPress={() => {
-              const content = require('../../assets/json/usecases/en/2.2-positions.json').scenarios;
+              const content = require('../../assets/json/usecases/en/2-2-0.json').scenarios;
               this.props.navigation.navigate('UseCases', {
                 title: 'Positions',
                 content
@@ -103,6 +103,17 @@ class Gameplay extends React.Component {
             Jammers may also legally exit and remain outside of the Engagement Zone.
           </Text>
           <Divider styleName="empty" />
+          <Button onPress={() => {
+              const content = require('../../assets/json/usecases/en/2-2-1.json').scenarios;
+              this.props.navigation.navigate('UseCases', {
+                title: 'Jammers',
+                content
+              });
+            }}>
+            <Text>VIEW USE CASES</Text>
+            <Icon name="right-arrow" />
+          </Button>
+          <Divider styleName="empty" />
           <Subtitle>
             2.2.2. Lead Jammer
           </Subtitle>
@@ -125,6 +136,17 @@ class Gameplay extends React.Component {
           <Text styleName="multiline">
             The Lead Jammer calls off the Jam by repeatedly placing their hands on their hips.
           </Text>
+          <Divider styleName="empty" />
+          <Button onPress={() => {
+              const content = require('../../assets/json/usecases/en/2-2-2.json').scenarios;
+              this.props.navigation.navigate('UseCases', {
+                title: 'Lead Jammer',
+                content
+              });
+            }}>
+            <Text>VIEW USE CASES</Text>
+            <Icon name="right-arrow" />
+          </Button>
           <Divider styleName="empty" />
           <Subtitle>
             2.2.3. Pivot Blocker
@@ -173,6 +195,17 @@ class Gameplay extends React.Component {
             If the Pivot comes into control of the Star through any other means (for example, by picking up a fallen Star), a Star Pass has not taken place. Accordingly, the Pivot does not attain the position of Jammer and thus may not put the Star on their own helmet. They may hold the Star in their hand, drop it, or return it to the Jammer.
           </Text>
           <Divider styleName="empty" />
+          <Button onPress={() => {
+              const content = require('../../assets/json/usecases/en/2-2-4.json').scenarios;
+              this.props.navigation.navigate('UseCases', {
+                title: 'Passing the star',
+                content
+              });
+            }}>
+            <Text>VIEW USE CASES</Text>
+            <Icon name="right-arrow" />
+          </Button>
+          <Divider styleName="empty" />
           <Title>
             2.2.5. Blockers
           </Title>
@@ -210,6 +243,17 @@ class Gameplay extends React.Component {
           <Text styleName="multiline">
             Distances for determining the Pack and the Engagement Zone are measured as the shortest distance, parallel to the inside track boundary, between Skaters’ hips.
           </Text>
+          <Divider styleName="empty" />
+          <Button onPress={() => {
+              const content = require('../../assets/json/usecases/en/2-3-0.json').scenarios;
+              this.props.navigation.navigate('UseCases', {
+                title: 'Engagement Zone & Pack',
+                content
+              });
+            }}>
+            <Text>VIEW USE CASES</Text>
+            <Icon name="right-arrow" />
+          </Button>
           <Divider styleName="empty" />
           <Title>
             2.4. Blocks and Assists

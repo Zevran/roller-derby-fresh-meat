@@ -1,0 +1,38 @@
+{
+    "scenarios": [
+        {
+            "title": "Scenario C3.1.A",
+            "description": "Red Jammer approaches the Pack for their second trip while White Jammer is still in the Pack. Red Jammer passes all opponents except a White Non-Pivot Blocker, who blocks Red Jammer out, forcing Red Jammer to re-enter behind the Pack. Before Red Jammer re-enters the Pack, White Jammer passes the Star to White Pivot. Red Jammer re-enters the Pack, passes all opponents again, and exits the Engagement Zone.",
+            "outcome": "Five points.",
+            "rationale": "Points are earned for lapping opponents, not specific positions. What matters is that the White Skaters in question were lapped only once each during Red Jammer’s second trip through the Pack.",
+            "keepinminds": [
+                "Were it White Pivot who blocked Red Jammer out, and White Pivot exited the Engagement Zone before being passed, Red Jammer would have earned only four points even though they had passed the original White Jammer once while they were a Jammer and then again while they were a Blocker."
+            ]
+        },
+        {
+            "title": "Scenario C3.1.B",
+            "description": "The Red Jammer is in lapping position on the White Jammer. Red Jammer enters the pack ahead of White Jammer, while White Jammer is approaching the pack for their second trip. Red Jammer passes the Star, and the new Red Jammer escapes the pack. White Jammer enters the pack and passes all four Red Blockers (including the original Red Jammer).",
+            "outcome": "White Jammer scores four points.",
+            "rationale": "All Blockers are considered to be tied together with respect to the opposing Jammer’s trip through the pack. So, even though the White Jammer did not lap the original Red Jammer, when the Red Jammer became a Blocker, this gave the White Jammer lapping position.",
+            "keepinminds": [
+            ]
+        },
+        {
+            "title": "Scenario C3.1.C",
+            "description": "Red Jammer is on their initial trip through the Pack and has earned a pass on all opponents. White Jammer is on the track but takes a knee to re-tie their skate. The Pack (with Red Jammer still in it) leaves White Jammer behind, and then re-absorbs White Jammer from the front. Red Jammer earns a pass on re-absorbed White Jammer and exits the Engagement Zone.",
+            "outcome": "One point (on Red Jammer’s initial trip through the Pack).",
+            "rationale": "On their first trip through the Pack, Red Jammer successfully lapped White Jammer, and the pass was earned. No other Skaters had been lapped.",
+            "keepinminds": [
+                "It does not matter that this was a White Jammer. If a White Blocker were somehow re-absorbed into the front of the Pack and lapped by Red Jammer, Red Jammer would have earned a point for earning a pass that constituted lapping that White Blocker."
+            ]
+        },
+        {
+            "title": "Scenario C3.1.D",
+            "description": "White Jammer is on their second trip through the Pack and jumps the apex, passing all four Red Blockers while mid-air. White Jammer’s right skate lands in bounds, with their hips ahead of all Blockers. Moments later, White Jammer’s left skate lands out of bounds.",
+            "outcome": "Four points.",
+            "rationale": "White Jammer’s in bounds status was maintained while airborne because the first part of their skate to touch back down touched in bounds. White Jammer’s upright status was maintained while airborne because they touched the ground skate-first. The fact that White Jammer touched out of bounds with the other skate does not affect points (but may affect their subsequent position relative to the Skaters they passed while airborne).",
+            "keepinminds": [
+            ]
+        }
+    ]
+}
