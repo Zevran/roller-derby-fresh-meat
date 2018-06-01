@@ -1,12 +1,22 @@
 import React from 'react';
 import { Dimensions } from 'react-native';
-import { View, ImagePreview, Title, Subtitle, Text, Divider } from '@shoutem/ui'
+import {
+  View,
+  ImagePreview,
+  Title,
+  Subtitle,
+  Text,
+  Divider,
+  Button,
+  Icon
+} from '@shoutem/ui'
+import { withNavigation } from 'react-navigation';
 
 const BlockingZonesImage = require('../../assets/images/rules/blocking_zones.png');
 const ContactZonesImage = require('../../assets/images/rules/contact_zones.png');
 const TrackDimensionsImage = require('../../assets/images/rules/track_dimensions.png');
 
-export default class Gameplay extends React.Component {
+class Gameplay extends React.Component {
 
   render() {
     const screenWidth = Dimensions.get('window').width;
@@ -59,6 +69,17 @@ export default class Gameplay extends React.Component {
             Any Skaters who are not completely on the track or serving a penalty (in or on their way to the Penalty Box) at the Jam-Starting Whistle may not participate in the Jam (and thus do not count toward these limits). Any Skaters who are partially illegally positioned (but are still on the track; for example, a Jammer who is touching past the Jammer Line) are required to yield their position to all other Skaters in the immediate vicinity, and are not considered to have joined the Jam until they have done so. Any Skaters who are wholly illegally positioned are immediately penalized.
           </Text>
           <Divider styleName="empty" />
+          <Button onPress={() => {
+              const content = require('../../assets/json/usecases/en/2-2-0.json').scenarios;
+              this.props.navigation.navigate('UseCases', {
+                title: 'Positions',
+                content
+              });
+            }}>
+            <Text>VIEW USE CASES</Text>
+            <Icon name="right-arrow" />
+          </Button>
+          <Divider styleName="empty" />
           <Subtitle>
             2.2.1. Jammers
           </Subtitle>
@@ -82,6 +103,17 @@ export default class Gameplay extends React.Component {
             Jammers may also legally exit and remain outside of the Engagement Zone.
           </Text>
           <Divider styleName="empty" />
+          <Button onPress={() => {
+              const content = require('../../assets/json/usecases/en/2-2-1.json').scenarios;
+              this.props.navigation.navigate('UseCases', {
+                title: 'Jammers',
+                content
+              });
+            }}>
+            <Text>VIEW USE CASES</Text>
+            <Icon name="right-arrow" />
+          </Button>
+          <Divider styleName="empty" />
           <Subtitle>
             2.2.2. Lead Jammer
           </Subtitle>
@@ -104,6 +136,17 @@ export default class Gameplay extends React.Component {
           <Text styleName="multiline">
             The Lead Jammer calls off the Jam by repeatedly placing their hands on their hips.
           </Text>
+          <Divider styleName="empty" />
+          <Button onPress={() => {
+              const content = require('../../assets/json/usecases/en/2-2-2.json').scenarios;
+              this.props.navigation.navigate('UseCases', {
+                title: 'Lead Jammer',
+                content
+              });
+            }}>
+            <Text>VIEW USE CASES</Text>
+            <Icon name="right-arrow" />
+          </Button>
           <Divider styleName="empty" />
           <Subtitle>
             2.2.3. Pivot Blocker
@@ -152,6 +195,17 @@ export default class Gameplay extends React.Component {
             If the Pivot comes into control of the Star through any other means (for example, by picking up a fallen Star), a Star Pass has not taken place. Accordingly, the Pivot does not attain the position of Jammer and thus may not put the Star on their own helmet. They may hold the Star in their hand, drop it, or return it to the Jammer.
           </Text>
           <Divider styleName="empty" />
+          <Button onPress={() => {
+              const content = require('../../assets/json/usecases/en/2-2-4.json').scenarios;
+              this.props.navigation.navigate('UseCases', {
+                title: 'Passing the star',
+                content
+              });
+            }}>
+            <Text>VIEW USE CASES</Text>
+            <Icon name="right-arrow" />
+          </Button>
+          <Divider styleName="empty" />
           <Title>
             2.2.5. Blockers
           </Title>
@@ -189,6 +243,17 @@ export default class Gameplay extends React.Component {
           <Text styleName="multiline">
             Distances for determining the Pack and the Engagement Zone are measured as the shortest distance, parallel to the inside track boundary, between Skaters’ hips.
           </Text>
+          <Divider styleName="empty" />
+          <Button onPress={() => {
+              const content = require('../../assets/json/usecases/en/2-3-0.json').scenarios;
+              this.props.navigation.navigate('UseCases', {
+                title: 'Engagement Zone & Pack',
+                content
+              });
+            }}>
+            <Text>VIEW USE CASES</Text>
+            <Icon name="right-arrow" />
+          </Button>
           <Divider styleName="empty" />
           <Title>
             2.4. Blocks and Assists
@@ -280,3 +345,5 @@ export default class Gameplay extends React.Component {
     );
   }
 }
+
+export default withNavigation(Gameplay);

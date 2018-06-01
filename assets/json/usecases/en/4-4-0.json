@@ -1,0 +1,28 @@
+{
+	"scenarios": [
+		{
+			"title": "Scenario C4.4.A",
+			"description": "White Pivot arrives at the Penalty Box between Jams. They call to their coach and signal that they are injured. The coach sends a new Skater to the Box. White Pivot gives the new Skater the Stripe and returns to the bench.",
+			"outcome": "White Pivot’s penalty time is served by the substitute. White Pivot may not skate in the following three Jams.",
+			"rationale": "Skaters may remove themself from play when injured. A substitute may serve penalty time for an injured Skater, but the injured Skater may not participate in the next three Jams and the substituting Skater must fill the same position the injured Skater filled.",
+			"followups": [
+				"If White Pivot were not injured but had broken their skate or equipment, and thus could not skate in the upcoming Jam, a substitute would also be allowed. White Pivot would similarly not be allowed to skate during the following three Jams."
+			]
+		},
+		{
+			"title": "Scenario C4.4.B",
+			"description": "Red Jammer is skating at the front of the Pack, close to the inside track boundary, when they are assessed a penalty. Red Jammer takes themselves out of bounds to the inside of the track, and pauses to allow the Pack to skate past them. When their path is clear, Red Jammer skates across to the outside of the track, and then continues around toward the Penalty Box.",
+			"outcome": "No additional penalty.",
+			"rationale": "Red Jammer momentarily entered the infield in order to remove themselves from play. At the first safe and legal opportunity, they left the track to the outside without significantly reducing the distance they needed to skate to reach the Penalty Box. No additional penalty is warranted.",
+			"keepinminds": [
+				"Skaters remain liable for additional penalties related to safety and must not interfere with Officials performing their duties."
+			]
+		},
+		{
+			"title": "Scenario C4.4.C",
+			"description": "Red Pivot is skating along the straightaway opposite the Pivot and Jammer lines, close to the inside track boundary. They are assessed a penalty and take themselves out of bounds to the inside of the track. Red Pivot then skates across the infield and the straightaway with the Pivot and Jammer lines to enter the Penalty Box.",
+			"outcome": "Red Pivot is assessed an additional penalty.",
+			"rationale": "In this scenario, the Penalty Box is located on the outside of the track; hence, Red Pivot was required to leave the track to the outside from where they were assessed their penalty. Skating across the infield has significantly reduced the distance they needed to skate to reach the Penalty Box."
+		}
+  	]
+}

@@ -3,12 +3,16 @@ import React from 'react';
 import { StackNavigator } from 'react-navigation';
 
 import MainTabNavigator from './MainTabNavigator';
-import registerForPushNotificationsAsync from '../api/registerForPushNotificationsAsync';
+import UseCasesScreen from '../screens/UseCasesScreen';
+// import registerForPushNotificationsAsync from '../api/registerForPushNotificationsAsync';
 
 const RootStackNavigator = StackNavigator(
   {
     Main: {
       screen: MainTabNavigator,
+    },
+    UseCases: {
+      screen: UseCasesScreen,
     },
   },
   {
@@ -22,11 +26,11 @@ const RootStackNavigator = StackNavigator(
 
 export default class RootNavigator extends React.Component {
   componentDidMount() {
-    this._notificationSubscription = this._registerForPushNotifications();
+    // this._notificationSubscription = this._registerForPushNotifications();
   }
 
   componentWillUnmount() {
-    this._notificationSubscription && this._notificationSubscription.remove();
+    // this._notificationSubscription && this._notificationSubscription.remove();
   }
 
   render() {

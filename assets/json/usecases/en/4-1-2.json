@@ -1,0 +1,61 @@
+{
+    "scenarios": [
+        {
+            "title": "Scenario C4.1.2.A",
+            "description": "Red Jammer initiates a block with their forearms tucked into their torso, to a legal target zone of White Blocker. White Blocker is knocked out of bounds.",
+            "outcome": "No penalty.",
+            "rationale": "Red Jammer’s forearms were fully tucked into their torso. While forearms are an illegal blocking zone, tucking them into the torso effectively makes them part of the torso, and thus a legal blocking zone."
+        },
+        {
+            "title": "Scenario C4.1.2.B",
+            "description": "White Blocker initiates a block against Red Jammer, using their upper arm against a legal target zone. The natural momentum of the impact causes additional contact, sliding down to White Blocker’s elbow. Red Jammer ends up out of bounds as a result of the action.",
+            "outcome": "No penalty.",
+            "rationale": "White Blocker used their upper arm to initiate the block. Red Jammer’s loss of position was a result of a block from a legal blocking zone and not the additional contact that resulted from the momentum of the impact. Both examples are legal play.",
+            "keepinminds": [
+                "Many legal blocks include incidental or meaningless contact using an illegal blocking zone, or to an illegal target zone. If the illegal contact does not have further impact, no penalty should be assessed."
+            ]
+        },
+        {
+            "title": "Scenario C4.1.2.C",
+            "description": "White Jammer is stuck behind a Red wall. They push forward, but cannot find a way to break through. They drive their knee into Red Blocker’s buttocks. Red Blocker stumbles but does not go down or out. White Jammer fails to break through the wall.",
+            "outcome": "White Jammer is penalized.",
+            "rationale": "A Skater who intentionally and forcefully jabs an opponent with their elbow or strikes with their knee should receive a penalty regardless of whether it leads to a loss of position or advantage. This action is unsafe and unsporting.",
+            "keepinminds": [
+                "The fact that this action was intentional is only part of the reason a penalty is warranted. Intentional illegal action is not always penalized even though it is tacitly unsporting. Intentional actions designed to harm an opponent should always be penalized."
+            ]
+        },
+        {
+            "title": "Scenario C4.1.2.D",
+            "description": "As White Jammer advances, Red Blocker is knocked off balance and into White Jammer’s path, bending over and positionally placing their head in front of White Jammer. White Jammer comes to a complete stop to avoid contact with Red Blocker’s head.",
+            "outcome": "No penalty.",
+            "rationale": "Though White Jammer lost significant momentum as a result of Red Blocker’s positional block with an illegal blocking zone (head), unintentional positional blocking with the head does not warrant a penalty.",
+            "keepinminds": [
+                "If Red Blocker had intentionally presented their head in order to slow White Jammer’s momentum, or continued to use the threat of harm to their own head as a barrier, Red Blocker should be penalized for unsafe and unsporting conduct."
+            ]
+        },
+        {
+            "title": "Scenario C4.1.2.E",
+            "description": "White Blocker is knocked off balance and grabs hold of Red Blocker’s jersey in an attempt to regain their balance. Red Blocker remains standing, but is significantly slowed by the pulling at their jersey. White Blocker regains their balance.",
+            "outcome": "White Blocker is penalized.",
+            "rationale": "Assists taken from an opponent, such as whips or braces, are penalizable if they result in some kind of advantage for the initiator or disadvantage for the opponent. White Blocker significantly slowed Red Blocker by using an illegal blocking zone."
+        },
+        {
+            "title": "Scenario C4.1.2.F",
+            "description": "White Pivot attempts to join the other White Blockers but is held back by a wall of Red Blockers. White Pivot wiggles past Red Blocker on the outside line, using their forearms on those Red Blockers to hold themself in bounds.",
+            "outcome": "White Pivot is penalized.",
+            "rationale": "White Pivot gained superior position to Red Blocker by using their forearms to remain in bounds during an action that would have otherwise taken them out of bounds.",
+            "keepinminds": [
+                "The fact that White Pivot’s forearms were used to keep them in bounds is not why this warrants a penalty; rather, it was that maintaining in bounds status resulted in a gain of position."
+            ]
+        },
+        {
+            "title": "Scenario C4.1.2.G",
+            "description": "Red Jammer has passed all but the foremost White Blocker. White Blocker faces clockwise with their arms outstretched and initiates a block against Red Jammer with the entirety of their arm: upper, elbow, and forearm. Red Jammer is not knocked down, but they are brought to a stop.",
+            "outcome": "White Blocker is penalized.",
+            "rationale": "Though Red Jammer did not lose position, their progress was significantly impeded by illegal blocking zones.",
+            "keepinminds": [
+                "If White Blocker had dropped their forearm and elbow as soon as contact was made, no penalty should be called. It was the prolonged impact of the forearm and elbow that made the action penalizable."
+            ]
+        }
+    ]
+}

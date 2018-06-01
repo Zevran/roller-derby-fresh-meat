@@ -1,7 +1,8 @@
 import React from 'react';
-import { View, Title, Subtitle, Text, Divider } from '@shoutem/ui';
+import { withNavigation } from 'react-navigation';
+import { View, Title, Button, Icon, Subtitle, Text, Divider } from '@shoutem/ui';
 
-export default class Scoring extends React.Component {
+class Scoring extends React.Component {
 
   render() {
     return (
@@ -19,6 +20,17 @@ export default class Scoring extends React.Component {
           All Blockers are considered to be on the same trip, including former Jammers who have passed the Star.
         </Text>
         <Divider styleName="empty" />
+        <Button onPress={() => {
+            const content = require('../../assets/json/usecases/en/3-1-0.json').scenarios;
+            this.props.navigation.navigate('UseCases', {
+              title: 'Earning Points',
+              content
+            });
+          }}>
+          <Text>VIEW USE CASES</Text>
+          <Icon name="right-arrow" />
+        </Button>
+        <Divider styleName="empty" />
         <Title>3.2. Scoring Trips</Title>
         <Text styleName="multiline bold">
           Points are grouped by trips through the Pack.
@@ -34,6 +46,17 @@ export default class Scoring extends React.Component {
         <Text styleName="multiline">
           When a Jam ends, whatever trip the Jammers are on is considered to have been “completed” by the Jam ending.
         </Text>
+        <Divider styleName="empty" />
+        <Button onPress={() => {
+            const content = require('../../assets/json/usecases/en/3-2-0.json').scenarios;
+            this.props.navigation.navigate('UseCases', {
+              title: 'Scoring Trips',
+              content
+            });
+          }}>
+          <Text>VIEW USE CASES</Text>
+          <Icon name="right-arrow" />
+        </Button>
         <Divider styleName="empty" />
         <Title>3.3. Scoring Avoidance</Title>
         <Text styleName="multiline bold">
@@ -56,6 +79,17 @@ export default class Scoring extends React.Component {
           If an Opponent’s action renders the Jammer unable to score–for example, a Jammer who is blocked out of bounds–the Jammer continues to score not-on-the-track points as usual.
         </Text>
         <Divider styleName="empty" />
+        <Button onPress={() => {
+            const content = require('../../assets/json/usecases/en/3-3-0.json').scenarios;
+            this.props.navigation.navigate('UseCases', {
+              title: 'Scoring Avoidance',
+              content
+            });
+          }}>
+          <Text>VIEW USE CASES</Text>
+          <Icon name="right-arrow" />
+        </Button>
+        <Divider styleName="empty" />
         <Title>3.4. Penalized Jammers</Title>
         <Text styleName="multiline bold">
           When a Skater is penalized, they are considered to no longer be on the track
@@ -63,6 +97,17 @@ export default class Scoring extends React.Component {
         <Text styleName="multline">
           (even if they are physically still on the track). Accordingly, a penalized Jammer cannot lap any further opponents until that Jammer completes their penalty. Upon penalization, there is no longer lapping position between the Jammers until both the Jammers are in gameplay. Upon release from the Penalty Box, a Jammer returns to the same trip through the Pack, having scored on (and/or being in position to score on) the same Blockers.
         </Text>
+        <Divider styleName="empty" />
+        <Button onPress={() => {
+            const content = require('../../assets/json/usecases/en/3-4-0.json').scenarios;
+            this.props.navigation.navigate('UseCases', {
+              title: 'Penalized Jammers',
+              content
+            });
+          }}>
+          <Text>VIEW USE CASES</Text>
+          <Icon name="right-arrow" />
+        </Button>
         <Divider styleName="empty" />
         <Title>3.5. Errors in Scoring & Score Reporting</Title>
         <Text styleName="multiline bold">
@@ -84,3 +129,5 @@ export default class Scoring extends React.Component {
     );
   }
 }
+
+export default withNavigation(Scoring);

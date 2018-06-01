@@ -1,0 +1,65 @@
+{
+    "scenarios": [
+        {
+            "title": "Scenario C4.2.3.A",
+            "description": "White Pivot is issued a penalty, leaves the track, and reports to the Penalty Box. The Penalty Box is full at this time, and White Pivot is waved back onto the track. Just as White Pivot returns to the Pack, the Jam is called off. White Pivot returns to their team bench.",
+            "outcome": "Officials should attempt to warn White Pivot that White Pivot is in queue for a penalty. If they are not successful, when 30 seconds have passed since the end of the previous Jam, Officials must call an Official Timeout instead of starting the next Jam. White Pivot should be penalized.",
+            "rationale": "White Pivot is in queue to serve their penalty, and must be on the track so they can serve their penalty during the next Jam."
+        },
+        {
+            "title": "Scenario C4.2.3.B",
+            "description": "Officials give Skaters a five-second warning before the start of the next Jam. White team finishes their discussion, and five White Skaters approach the track. All are out of bounds or straddling as the lineup time expires.",
+            "outcome": "Instead of starting the next Jam, at that moment, the Officials must call an Official Timeout. White Captain is penalized.",
+            "rationale": "White team’s failure to field any Skaters in correct position prevented the Jam from starting in a timely manner, thus stopping the period clock illegally."
+        },
+        {
+            "title": "Scenario C4.2.3.C",
+            "description": "Officials give Skaters a five-second warning before the start of the next Jam. White team finishes their discussion, and five White Skaters approach the track. All are in bounds, but ahead of the Pivot Line as the lineup time expires.",
+            "outcome": "Instead of starting the next Jam, at that moment, the Officials must call an Official Timeout instead of starting the next Jam. White Captain is penalized.",
+            "rationale": "White team’s failure to field any Blockers in the correct position prevented the Jam from starting in a timely manner."
+        },
+        {
+            "title": "Scenario C4.2.3.D",
+            "description": "As the lineup time expires, White team has four Blockers correctly positioned, but White Jammer is still out of bounds.",
+            "outcome": "Instead of starting the next Jam, at that moment, the Officials must call an Official Timeout. White Captain is penalized.",
+            "rationale": "White team’s failure to field a Jammer in the correct position prevented the Jam from starting in a timely manner.",
+            "keepinminds": [
+                "If Red Jammer, too, had been out of bounds, both Captains would have received a penalty for preventing the Jam from starting in a timely manner.",
+                "If a White Skater had been correctly positioned as a Jammer but did not possess a visible Star, they are not the Jammer. Assuming the White team does not have a Jammer serving a penalty, White’s Captain would similarly receive a penalty for preventing the Jam from starting in a timely fashion."
+            ]
+        },
+        {
+            "title": "Scenario C4.2.3.E",
+            "description": "White team has used three Team Timeouts during the game. White Captain calls for a Team Timeout. Officials, mistakenly believing that White team has timeouts remaining, grants the request.",
+            "outcome": "If White team has an Official Review remaining, they should be considered to have used it as a timeout. If not, White Captain is penalized and the next Jam is started as soon as possible, but at least 30 seconds after the end of the previous Jam.",
+            "rationale": "White Captain’s successful, but illegal attempt to stop the period clock prevented the next Jam from starting in a timely manner. If White Captain had legal means to prevent the Jam from starting, legal means should be assumed.",
+            "keepinminds": [
+                "Officials should deny requests for a Team Timeout if that team has none remaining. No penalty is warranted if an invalid request for a Team Timeout is denied."
+            ]
+        },
+        {
+            "title": "Scenario C4.2.3.F",
+            "description": "Jam 23 is called off for an injury sustained by White Pivot. The same Skater lines up on the track for the start of Jam 26.",
+            "outcome": "Officials should attempt to communicate to the White Skater that they are not allowed to participate. If the Officials fail, when 30 seconds have passed since the end of the previous Jam, Officials must call an Official Timeout instead of starting the next Jam. White Pivot is returned to their team bench to sit out the remaining Jam, as required. White Captain is penalized.",
+            "rationale": "The White Skater’s failure to sit out the required number of Jams prevented the next Jam from starting in a timely manner. The White Skater cannot serve the penalty at this time for the same reason, so it is issued to their Captain instead.",
+            "keepinminds": [
+                "If Officials believe the White Skater’s injury poses a serious and immediate threat to that Skater or others, Officials should not allow the White Skater to skate no matter how many Jams have elapsed."
+            ]
+        },
+        {
+            "title": "Scenario C4.2.3.G",
+            "description": "White Pivot (who is neither the Captain nor the Designated Alternate) walks up to an Official and requests a Team Timeout. That Official, mistakenly believing White Pivot is the Captain, grants the request.",
+            "outcome": "When the mistake is realized, Officials must call an Official Timeout. White Pivot is penalized. The next Jam is started as soon as possible, but at least 30 seconds after the end of the previous Jam.",
+            "rationale": "White Pivot’s successful, but illegal attempt to stop the period clock prevented the next Jam from starting in a timely manner.",
+            "keepinminds": [
+                "If the illegal requester is not a Skater, the penalty is issued to the Captain instead. Officials should deny requests for a Team Timeout if the requester is neither a Captain nor an Designated Alternate. No penalty is warranted if an invalid request for a Team Timeout is denied."
+            ]
+        },
+        {
+            "title": "Scenario C4.2.3.H",
+            "description": "White Pivot (who is neither the Captain nor the Designated Alternate) uses hand signals to communicate with their Captain, asking for a Team Timeout to be called. Officials, mistaking the White Pivot’s hand signals for a legal request, call a Team Timeout.",
+            "outcome": "When the mistake is realized, Officials must call an Official Timeout. White Pivot is not issued a penalty. White team is not charged for a Team Timeout. The next Jam is started as soon as possible, but at least 30 seconds after the end of the previous Jam. No penalty.",
+            "rationale": "White Pivot was attempting to communicate with their Captain. They were not attempting to request a Team Timeout from the Officials."
+        }
+    ]
+}

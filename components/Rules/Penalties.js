@@ -1,11 +1,12 @@
 import React from 'react';
 import { Dimensions } from 'react-native';
-import { View, ImagePreview, Title, Subtitle, Text, Divider } from '@shoutem/ui';
+import { withNavigation } from 'react-navigation';
+import { View, Title, Button, Icon, Subtitle, Text, Divider, ImagePreview } from '@shoutem/ui';
 
 const BlockingZonesImage = require('../../assets/images/rules/blocking_zones.png');
 const ContactZonesImage = require('../../assets/images/rules/contact_zones.png');
 
-export default class Penalties extends React.Component {
+class Penalties extends React.Component {
 
   render() {
     const screenWidth = Dimensions.get('window').width;
@@ -76,6 +77,17 @@ export default class Penalties extends React.Component {
           Fig. 4.2 Legal Target Zones
         </Text>
         <Divider styleName="empty" />
+        <Button onPress={() => {
+            const content = require('../../assets/json/usecases/en/4-1-1.json').scenarios;
+            this.props.navigation.navigate('UseCases', {
+              title: 'Impact to an Illegal Target Zone',
+              content
+            });
+          }}>
+          <Text>VIEW USE CASES</Text>
+          <Icon name="right-arrow" />
+        </Button>
+        <Divider styleName="empty" />
         <Subtitle>
           4.1.2. Impact with an Illegal Blocking Zone
         </Subtitle>
@@ -112,6 +124,17 @@ export default class Penalties extends React.Component {
           Fig. 4.4 Legal Blocking Zones
         </Text>
         <Divider styleName="empty" />
+        <Button onPress={() => {
+            const content = require('../../assets/json/usecases/en/4-1-2.json').scenarios;
+            this.props.navigation.navigate('UseCases', {
+              title: 'Impact with an Illegal Blocking Zone',
+              content
+            });
+          }}>
+          <Text>VIEW USE CASES</Text>
+          <Icon name="right-arrow" />
+        </Button>
+        <Divider styleName="empty" />
         <Subtitle>
           4.1.3. Other Illegal Contact
         </Subtitle>
@@ -127,12 +150,34 @@ export default class Penalties extends React.Component {
           Initiation of assists should be held to the same metrics as that of blocking.
         </Text>
         <Divider styleName="empty" />
+        <Button onPress={() => {
+            const content = require('../../assets/json/usecases/en/4-1-3.json').scenarios;
+            this.props.navigation.navigate('UseCases', {
+              title: 'Other Illegal Contact',
+              content
+            });
+          }}>
+          <Text>VIEW USE CASES</Text>
+          <Icon name="right-arrow" />
+        </Button>
+        <Divider styleName="empty" />
         <Subtitle>
           4.1.4. Multiplayer Blocks
         </Subtitle>
         <Text styleName="multiline bold">
           Skaters may not form a wall by linking with or grasping a teammate, or otherwise forming an impenetrable connection.** This action warrants a penalty if an opponent attempts to get between them and fails to do so due to the illegal formation.
         </Text>
+        <Divider styleName="empty" />
+        <Button onPress={() => {
+            const content = require('../../assets/json/usecases/en/4-1-4.json').scenarios;
+            this.props.navigation.navigate('UseCases', {
+              title: 'Multiplayer Blocks',
+              content
+            });
+          }}>
+          <Text>VIEW USE CASES</Text>
+          <Icon name="right-arrow" />
+        </Button>
         <Divider styleName="empty" />
         <Title>
           4.2. Game Structure Penalties
@@ -178,6 +223,17 @@ export default class Penalties extends React.Component {
           If a Skater is not legally positioned at the start of a Jam, the Skater should immediately yield position to everybody in the vicinity. Failing to do so after a warning is considered to be intentionally maintaining an illegal position and should be penalized accordingly.
         </Text>
         <Divider styleName="empty" />
+        <Button onPress={() => {
+            const content = require('../../assets/json/usecases/en/4-2-1.json').scenarios;
+            this.props.navigation.navigate('UseCases', {
+              title: 'Illegal Positioning',
+              content
+            });
+          }}>
+          <Text>VIEW USE CASES</Text>
+          <Icon name="right-arrow" />
+        </Button>
+        <Divider styleName="empty" />
         <Subtitle>
           4.2.2. Gaining Position
         </Subtitle>
@@ -200,6 +256,17 @@ export default class Penalties extends React.Component {
         <Text styleName="multiline">
           That opponent gives up this advantage if they go down, out of bounds, or out of play (or more than 20 ft (6.10 m) from the last defined Pack if there is no Pack) prior to the Skater re-entering the track. Skaters other than the initiator of the block are able to re-establish their superior position if they are upright, in bounds, and in play before the Skater returns to the track. Skaters who illegally re-enter the track may immediately cede by returning fully out of bounds. Cutting one single teammate does not have enough impact to warrant a penalty.
         </Text>
+        <Divider styleName="empty" />
+        <Button onPress={() => {
+            const content = require('../../assets/json/usecases/en/4-2-2.json').scenarios;
+            this.props.navigation.navigate('UseCases', {
+              title: 'Gaining Position',
+              content
+            });
+          }}>
+          <Text>VIEW USE CASES</Text>
+          <Icon name="right-arrow" />
+        </Button>
         <Divider styleName="empty" />
         <Subtitle>
           4.2.3. Interfering with the Flow of the Game
@@ -227,6 +294,17 @@ export default class Penalties extends React.Component {
           Officials and Skaters should work together to ensure that the game flows according to the rules.
         </Text>
         <Divider styleName="empty" />
+        <Button onPress={() => {
+            const content = require('../../assets/json/usecases/en/4-2-3.json').scenarios;
+            this.props.navigation.navigate('UseCases', {
+              title: 'Interfering with the Flow of the Game',
+              content
+            });
+          }}>
+          <Text>VIEW USE CASES</Text>
+          <Icon name="right-arrow" />
+        </Button>
+        <Divider styleName="empty" />
         <Subtitle>
           4.2.4. Other Illegal Procedures
         </Subtitle>
@@ -237,6 +315,17 @@ export default class Penalties extends React.Component {
         <Text styleName="multiline">
           Examples of this are listed in the Rules of Flat Track Roller Derby Casebook; however, Skaters and Officials should work to ensure that the rules are followed as swiftly as possible, and to rectify any illegal or potentially illegal play before it has sufficient impact on the game to warrant penalization. Nevertheless, if a technical violation by one team results in an advantage, this should be penalized.
         </Text>
+        <Divider styleName="empty" />
+        <Button onPress={() => {
+            const content = require('../../assets/json/usecases/en/4-2-4.json').scenarios;
+            this.props.navigation.navigate('UseCases', {
+              title: 'Other Illegal Procedures',
+              content
+            });
+          }}>
+          <Text>VIEW USE CASES</Text>
+          <Icon name="right-arrow" />
+        </Button>
         <Divider styleName="empty" />
         <Title>
           4.3. Penalties for Unsporting Conduct (Misconduct)
@@ -264,6 +353,17 @@ export default class Penalties extends React.Component {
         <Text styleName="multiline">
           Actions which seriously undermine the legitimacy of the sport or display a lack of respect for the sport, its execution, and those who contribute to it may also be penalized.
         </Text>
+        <Divider styleName="empty" />
+        <Button onPress={() => {
+            const content = require('../../assets/json/usecases/en/4-3-0.json').scenarios;
+            this.props.navigation.navigate('UseCases', {
+              title: 'Penalties for Unsporting Conduct',
+              content
+            });
+          }}>
+          <Text>VIEW USE CASES</Text>
+          <Icon name="right-arrow" />
+        </Button>
         <Divider styleName="empty" />
         <Title>
           4.4. Enforcing Penalties
@@ -297,6 +397,17 @@ export default class Penalties extends React.Component {
           Nobody may enter the Penalty Box except for Officials and Skaters who are serving penalties.
         </Text>
         <Divider styleName="empty" />
+        <Button onPress={() => {
+            const content = require('../../assets/json/usecases/en/4-4-0.json').scenarios;
+            this.props.navigation.navigate('UseCases', {
+              title: 'Enforcing Penalties',
+              content
+            });
+          }}>
+          <Text>VIEW USE CASES</Text>
+          <Icon name="right-arrow" />
+        </Button>
+        <Divider styleName="empty" />
         <Subtitle>
           4.4.1. Penalty Enforcement for Blockers
         </Subtitle>
@@ -315,6 +426,17 @@ export default class Penalties extends React.Component {
         <Text styleName="multiline">
           A Blocker must immediately return if instructed to do so by an Official. Once a Blocker in queue returns to the track, they should be treated like any other unpenalized Blocker.
         </Text>
+        <Divider styleName="empty" />
+        <Button onPress={() => {
+            const content = require('../../assets/json/usecases/en/4-4-1.json').scenarios;
+            this.props.navigation.navigate('UseCases', {
+              title: 'Penalty Enforcement for Blockers',
+              content
+            });
+          }}>
+          <Text>VIEW USE CASES</Text>
+          <Icon name="right-arrow" />
+        </Button>
         <Divider styleName="empty" />
         <Subtitle>
           4.4.2. Penalty Enforcement for Jammers
@@ -339,6 +461,17 @@ export default class Penalties extends React.Component {
         <Text styleName="multiline">
           If a Jammer is sent to the Box when there is no opposing Jammer (for example, because the opposing Jammer has an equipment malfunction), the Jam will end once the Jammer is seated. This ensures that there is one Jammer who is not serving a penalty.
         </Text>
+        <Divider styleName="empty" />
+        <Button onPress={() => {
+            const content = require('../../assets/json/usecases/en/4-4-2.json').scenarios;
+            this.props.navigation.navigate('UseCases', {
+              title: 'Penalty Enforcement for Jammers',
+              content
+            });
+          }}>
+          <Text>VIEW USE CASES</Text>
+          <Icon name="right-arrow" />
+        </Button>
         <Divider styleName="empty" />
         <Title>
           4.5. Fouling Out & Expulsions
@@ -366,7 +499,20 @@ export default class Penalties extends React.Component {
         <Text styleName="multiline">
           If a Skater is removed from the game mid-Jam, their penalty will be timed as if a Skater were seated even though there is no Skater formally in the Box. If the Jam ends before the time is complete, the Skater’s team must be given the opportunity to substitute a different Skater to serve the remainder of the penalty in the same position as the removed Skater. Substitutions may not occur during the Jam in which the Skater is removed.
         </Text>
+        <Divider styleName="empty" />
+        <Button onPress={() => {
+            const content = require('../../assets/json/usecases/en/4-5-0.json').scenarios;
+            this.props.navigation.navigate('UseCases', {
+              title: 'Fouling Out & Expulsions',
+              content
+            });
+          }}>
+          <Text>VIEW USE CASES</Text>
+          <Icon name="right-arrow" />
+        </Button>
       </View>
     );
   }
 }
+
+export default withNavigation(Penalties);

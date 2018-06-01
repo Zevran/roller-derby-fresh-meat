@@ -1,0 +1,28 @@
+{
+    "scenarios": [
+        {
+            "title": "Scenario C2.3.A",
+            "image": "c-gameplay-pack-blocked-out.png",
+            "description": "Red Blocker 1 blocks White Blocker 1 out of bounds.",
+            "outcome": "No Pack. No penalty. White Blocker 1 must return in bounds to reform the Pack as soon as they can legally do so, and Red Blocker 1 must skate counterclockwise to allow White Blocker 1 to do so.",
+            "rationale": "Because there were no White Blockers within 10 ft (3.05m) of any Red Blockers, no Pack could be defined. All Blockers must work together to allow a Pack to reform as quickly as possible."
+        },
+        {
+            "title": "Scenario C2.3.B",
+            "image": "c-gameplay-front-skates-forward.png",
+            "description": "The Red wall skates forward slowly while the White Blockers stand still.",
+            "outcome": "No Pack” is declared. No penalty.",
+            "rationale": "The Red Blockers’ slow skating provided opportunity for White Pivot to maintain a Pack, so the Red Blockers should not be penalized. White Pivot is not required to maintain the Pack, but is required to work to reform a Pack if there is no Pack. Also, White Pivot is prohibited from making sudden movements that destroy the Pack.",
+            "keepinminds": [
+                "If, instead of moving forward, the Red Blockers stayed still while White Pivot skated backward or took a knee, White Pivot should be penalized. Roller derby is played in the counterclockwise direction, so clockwise movement is held to a different standard than counterclockwise movement, and taking a knee is always a sudden action. Subtle movements such as shifting one’s weight while standing should not be considered sudden actions."
+            ]
+        },
+        {
+            "title": "Scenario C2.3.C",
+            "image": "c-gameplay-pack-stretch.png",
+            "description": "In the above image, Red 3 and White Pivot are more than 10 ft (3.05m) apart, as are Red 1 and White 3 (if they were all in the center of the track, rather than on the line, they would be exactly 10ft/3.05m apart). Accordingly, the Pack is comprised of White Pivot, Red 2, White 1, and White 2. Red 1 and Red Pivot are out of play.\nThe Pack would be comprised of the following Skaters if the following Blockers took a knee:\nWhite 2\tWhite 1, Red 2, White Pivot\nWhite 1\tNo Pack. Red 3 and White 3 could be a pack of 2, but so could White Pivot and Red 2.\nRed 2\tWhite 3 and Red 3\nWhite Pivot\tWhite 1, White 2, Red 2\nRed 3 or anybody ahead of them\tThe pack does not change.",
+            "outcome": "",
+            "rationale": ""
+        }
+    ]
+}

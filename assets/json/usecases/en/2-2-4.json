@@ -1,0 +1,51 @@
+{
+    "scenarios": [
+        {
+            "title": "Scenario C2.2.4.A",
+            "description": "White Jammer removes their helmet cover and directly hands it to a White Non-Pivot Blocker. White Jammer releases the helmet cover.",
+            "outcome": "White Jammer should be penalized for initiating a Star Pass to an illegal recipient.",
+            "rationale": "White Jammer may only pass the Star to their Pivot. They may not pass the Star to a Blocker, regardless of the reasons for which they pass it.",
+            "keepinminds": [
+                "If White Jammer had not let go of the Star, or if White Blocker had refused to accept it (by letting it fall to the track rather than taking control of it), this would be an incomplete Star Pass rather than an illegal one. Incomplete Star Passes are not penalized.",
+                "If White Jammer were holding the Star and White Blocker wrested it from their grasp, it would have been White Blocker who initiated the illegal Star Pass, and thus White Blocker would be penalized."
+            ]
+        },
+        {
+            "title": "Scenario C2.2.4.B",
+            "description": "White Jammer removes their helmet cover and hands it to White Pivot. Before White Jammer releases their grip on the Star, White Pivot is knocked out of bounds. White Jammer then releases the Star to the out of bounds Pivot.",
+            "outcome": "White Jammer receives a penalty for passing the Star to an ineligible Pivot.",
+            "rationale": "Although White Jammer attempted to pass the Star while White Pivot was eligible, a Star Pass is a single point of exchange: the moment at which the Star is released."
+        },
+        {
+            "title": "Scenario C2.2.4.C",
+            "description": "White Pivot’s Stripe falls off in normal gameplay. White Jammer removes their helmet cover, hands it to White Pivot, and releases the Star.",
+            "outcome": "White Jammer receives a penalty for passing the Star to an ineligible Pivot.",
+            "rationale": "A Pivot who is not visibly wearing the Stripe cannot use the privileges of being a Pivot, such as receiving a Star Pass or even recovering the Star after an incomplete Star Pass."
+        },
+        {
+            "title": "Scenario C2.2.4.D",
+            "description": "Red 21 is the Jammer. They remove their helmet cover and throw it at Red 45, who is the Pivot. Red 45 (still the Pivot) catches the helmet cover and hands it back to Red 21 (still the Jammer). Both Skaters grip the Star, then Red 21 releases it. Red 45 maintains control of the Star and puts it on their helmet.",
+            "outcome": "Red 45 is now the Jammer.",
+            "rationale": "Throwing the Star is an incomplete Star Pass, not an illegal one. Catching the Star (out of the air) is the same as retrieving it (from the floor), so the Pivot is not required to let the Star fall to the track first. Once Red Jammer clutches the helmet cover, they reestablish their control of the Star regardless of whether the Pivot lets go or not. They then complete the Star Pass in a legal fashion.",
+            "keepinminds": [
+                "If Red 45 had put on the helmet cover before they had handed it back to Red 21, this would have resulted in a penalty issued to Red 45."
+            ]
+        },
+        {
+            "title": "Scenario C2.2.4.E",
+            "description": "While moving through the Pack, the Star comes off Red Jammer’s helmet and sticks to White Blocker’s wrist guard. White Blocker pulls the helmet cover free and drops it outside the track boundary.",
+            "outcome": "White Blocker is not issued a penalty.",
+            "rationale": "White Blocker gained temporary possession of the helmet cover and dropped it out of play. Because White Blocker did not intentionally attempt to remove the Star from Red Jammer’s helmet, they should not be issued a penalty for accidentally coming into control of the Star as long as they immediately relinquish control of the Star. The Star may get moved as part of normal gameplay, but may not be controlled by anyone other than the Jammer or Pivot.",
+            "keepinminds": [
+                "If White Blocker had not touched the Star, which was stuck to their wrist guard and allowed Red Jammer or Pivot to recover it once they are aware of it, no penalty would have occurred either.",
+                "If White Blocker had pulled the Star off their Velcro, but not immediately relinquished control of the Star once they removed it from their wrist guard, a penalty would have been issued."
+            ]
+        },
+        {
+            "title": "Scenario C2.2.4.F",
+            "description": "White Jammer legally passes the Star to White Pivot. Later in the Jam, White Pivot-turned-Jammer receives a penalty and goes to the Penalty Box. The Jam ends and Red team calls an Official Review. As a result of the review, the original White Jammer receives a penalty for an illegal action they took as Jammer.",
+            "outcome": "The additional penalty should be served by White Pivot-turned-Jammer and recorded for the original White Jammer. The original White Jammer should not be allowed to participate in the game until time for the penalty they earned has completed.",
+            "rationale": "White Jammer legally passed the Star, making White Pivot the new Jammer, but received a penalty upon review for an action committed while they were the Jammer. This would put two different White Skaters in the Box as a Jammer. A penalty is assigned to a Skater. The penalty time is assigned to a position, with the Skater not allowed to participate until it has been served. In this example, the original White Jammer receives the penalty and the current White Jammer (former Pivot) serves the time. Reverting the current Jammer to a Pivot or having the original Jammer serve the time as a Blocker would deprive Red team of earned advantages."
+        }
+    ]
+}

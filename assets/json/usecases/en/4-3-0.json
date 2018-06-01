@@ -1,0 +1,86 @@
+{
+	"scenarios": [
+		{
+			"title": "Scenario C4.3.A",
+			"description": "Red Jammer and White Blocker are in the Penalty Box. Red Jammer stands. After seven seconds, White Blocker suddenly says “Red, [number], done.” Red Jammer, assuming they have been legally released by an Official, exits the Box and begins to return to the track.",
+			"outcome": "White Blocker is penalized. Red Jammer is not. Officials should direct Red Jammer to return to the Box and complete their remaining penalty time.",
+			"rationale": "White Blocker has imitated an Official’s verbal instruction to try to force a penalty on the opposing Jammer, which is highly unsporting and is penalized as such. Red Jammer left in good faith believing they had been released by the Officials. They should still serve the remainder of their original penalty time."
+		},
+		{
+			"title": "Scenario C4.3.B",
+			"description": "Red Blocker knocks down White Blocker. Red Blocker bends over at the waist, positioning their chest above White Blocker in such a way as to prevent White Blocker from standing.",
+			"outcome": "Red Blocker is penalized.",
+			"rationale": "Though most positional blocks don’t typically result in a penalty, in this instance, Red Blocker intentionally positionally blocks a downed opponent. White Blocker cannot initiate a block from a downed status and thus cannot re-establish their position without earning a penalty of their own. This is unsporting conduct on the part of Red Blocker."
+		},
+		{
+			"title": "Scenario C4.3.C",
+			"description": "White Blocker intentionally pulls off Red Jammer’s helmet cover.",
+			"outcome": "Red Jammer momentarily lost the ability to score or earn Lead Jammer status as a result of White Blocker intentionally removing their Star. White Blocker is expelled from the game.",
+			"rationale": "Deliberately removing an opponent’s helmet cover is unsporting behavior of the highest order. It must be penalized by expulsion, regardless of any impact to the Jammer’s head, though intentional contact to an opponent’s head also warrants expulsion."
+		},
+		{
+			"title": "Scenario C4.3.D",
+			"description": "The Jam starts and White Jammer quickly earns Lead. Red Jammer immediately pulls off their Star and tries to pass it over their opponents’ heads to Red Pivot, but is unable to do so. Red Jammer stuffs the Star into their jersey so they don’t have to hold it as they work their way through the Pack.",
+			"outcome": "Red Jammer has hidden the Star from their opponents, also hiding the fact that they are their team’s Jammer. Red Jammer is penalized.",
+			"rationale": "It is unsporting to attempt to hide your role in the Jam.",
+			"keepinminds": [
+				"If Red Jammer had held onto the Star instead of hiding it in their jersey, no penalty would be issued because they would still be visibly in control of the Star."
+			]
+		},
+		{
+			"title": "Scenario C4.3.E",
+			"description": "Having been released from the Penalty Box, White Blocker heads back to the track, using a forearm to push a Referee out of the way so they can keep the line.",
+			"outcome": "White Blocker is expelled from the game.",
+			"rationale": "Intentional or negligent contact to Officials is unsporting, as it renders the Official unable to keep their attention on the game. Contact to an Official who does not expect it or to an Official who is not wearing safety equipment is also unsafe.",
+			"keepinminds": [
+				"Skaters and Officials routinely collide during the course of normal gameplay. This is usually unintentional and unavoidable, in which case it should not be penalized."
+			]
+		},
+		{
+			"title": "Scenario C4.3.F",
+			"description": "White Blocker is assessed a penalty and swears.",
+			"outcome": "Profane, abusive, and obscene language is unsporting and degrading to the sport, but should not always be penalized. If said language was audible to the audience or via broadcast, White Blocker is penalized. If White Blocker’s profanity was directed at an Official, White Blocker is penalized. Otherwise, a few choice words directed at a teammate or opponent should result in a warning and be penalized if the behavior continues.",
+			"rationale": "As a competitive, physical sport, roller derby can raise Skaters’ adrenaline and cause tempers to flare; some discretion is in order. Audible offensive language degrades the sport, and abusive language directed at Officials is disrespectful and insubordinate. Abusive language regarding Officials should be considered to be directed at the Officials as a group, and should be penalized if audible to any Official.",
+			"keepinminds": [
+				"Any language that is profane, or obscene should be held to a similar standard.",
+				"A Skater who utters a string of profanity or appears to have completely lost their temper should be expelled regardless of whether it is directed at anybody.",
+				"Discretion is in order to determine whether the language is degrading to the sport or others. A Skater who is cursing for some reason unrelated to gameplay, such as cursing while crying due to a painful injury, should not necessarily be penalized."
+			]
+		},
+		{
+			"title": "Scenario C4.3.G",
+			"description": "Red Blocker is crouched with one hand on the track. White Blocker intentionally falls on top of Red Blocker, targeting a legal target zone.",
+			"outcome": "White Blocker is expelled from the game for Misconduct.",
+			"rationale": "Falling onto an opponent is extremely dangerous and is an extraordinary physical threat to Red Blocker. Even though White Blocker was attempting to initiate into a legal target zone, intentionally falling onto an opponent is unsporting conduct.",
+			"keepinminds": [
+				"A Skater who is crouched with one hand on the floor does not count as down.",
+				"Skaters accidentally falling on each other due to natural gameplay is not unsporting conduct."
+			]
+		},
+		{
+			"title": "Scenario C4.3.H",
+			"description": "White Blocker is standing in a wall alongside their teammates. Red Jammer, while attempting to pass White Blocker, jumps and unintentionally makes contact with their chest into White Blocker’s shoulder. Red Jammer is completely airborne when the contact is made. White Blocker does not fall, but is pushed forward out of the wall.",
+			"outcome": "Red Jammer is penalized.",
+			"rationale": "Initiating a block while airborne is dangerous play. White Blocker has lost their established position in the wall due to Red Jammer’s illegal contact.",
+			"keepinminds": [
+				"Non-forceful and unintentional contact initiated by an airborne Skater (for example, brushing of shoulders during an apex jump) should only be penalized if there is significant impact on the recipient.",
+				"Skaters may initiate a block on an airborne opponent, if that opponent was a legal target prior to becoming airborne."
+			]
+		},
+		{
+			"title": "Scenario C4.3.I",
+			"description": "White Blocker is standing in a wall alongside their teammates. Red Jammer jumps at White Blocker, making forceful contact while airborne. Red Jammer had no reasonable expectation of landing in a legal manner. White Blocker, however, remains upright.",
+			"outcome": "Red Jammer should be considered for expulsion.",
+			"rationale": "Initiating a block while airborne is dangerous play. A flagrant violation of this rule poses a safety hazard to White Blocker. An expulsion would be warranted if the action was judged to be negligent, intentional, or reckless, regardless of whether White Blocker lost position."
+		},
+		{
+			"title": "Scenario C4.3.J",
+			"description": "A Governing Body policy limits the number of bench staff allowed on the bench. Red team has the maximum allowed support staff on the bench; however, in between Jams, an additional support staff runs into the bench area and communicates with the Designated Alternate.",
+			"outcome": "A penalty for unsporting conduct is issued to the Red Captain, and the extra support staff is removed from the bench.",
+			"rationale": "Both teams agreed to play the game under the Governing Body policy. Violating agreed-upon terms is unsporting and should be penalized.",
+			"keepinminds": [
+				"Policies may neither change nor override the published rules. In addition, policies also may not directly impact gameplay. Issues that are identified and resolved prior to the beginning of the game should not result in the assessment of penalties."
+			]
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"scenarios": [
+		{
+			"title": "Scenario C4.4.1.A",
+			"description": "White Blocker arrives at the Penalty Box and is instructed by a Penalty Box Official to sit in the right-most seat. White Blocker sits in the left-most seat.",
+			"outcome": "The Penalty Box Official should begin timing the penalty then ask White Blocker to move to the preferred seat.",
+			"rationale": "Penalty time begins as soon as the penalized Skater is seated in the Penalty Box. Timing does not stop while they move seats."
+    },
+    {
+			"title": "Scenario C4.4.1.B",
+			"description": "Red Pivot stands in the Penalty Box. The dimensions of the Box are not very deep and their skates already touch the line. Two Red Blockers enter the Box together. Red Pivot attempts to give them room to sit, and in doing so, their skates fully move out of the Penalty Box boundary. They immediately return inside the boundary.",
+			"outcome": "No penalty.",
+			"rationale": "Though Skaters are not allowed to leave the Box early, the mitigating circumstances of this example make the impact to the game negligible. Red Pivot was not attempting to gain some kind of illegal advantage or negligently exiting illegally, but was constrained by the shape of the Penalty Box."
+		}
+	]
+}

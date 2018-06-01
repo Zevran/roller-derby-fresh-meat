@@ -1,0 +1,68 @@
+{
+    "scenarios": [
+        {
+            "title": "Scenario C4.1.1.A",
+            "description": "White Blocker, falling as a result of contact with Red Blocker’s skates, “falls small” by tucking their arms and legs close into their body. Red Jammer, skating close behind, trips over White Blocker and falls.",
+            "outcome": "No penalty.",
+            "rationale": "White Blocker did everything in their power to prevent themself from being a hazard.",
+            "keepinminds": [
+                "Were this the third time White Blocker had caused an opponent to fall in this manner, they should receive a penalty. While “falling small” mitigates the safety risk of a Skater falling on the track, excessively falling with impact represents a larger safety risk that should result in a penalty."
+            ]
+        },
+        {
+            "title": "Scenario C4.1.1.B",
+            "description": "Red Jammer skates along the inside line and attempts to jump the apex to pass the Pack. White Pivot legally initiates a block to Red Jammer’s upper arm, which knocks Red Jammer off balance, and their jump comes up short. Red Jammer falls out of bounds. They fall small, but their momentum causes them to slide back onto the track, into White Blocker’s legs. White Blocker trips over Red Jammer and falls.",
+            "outcome": "Red Jammer is penalized.",
+            "rationale": "Red Jammer is considered in bounds when White Pivot initiates a legal block. Though Red Jammer fell small, their forward momentum back onto the track means that they are a safety risk for more than just a “small” space. White Blocker’s loss of position as a result of that risk is enough to warrant a penalty."
+        },
+        {
+            "title": "Scenario C4.1.1.C",
+            "description": "Red Pivot and two Red Blockers form a three-person wall. White Blocker initiates a block to the back of Red Pivot with a legal blocking zone. Red Pivot does not fall but is pushed out of the center of the wall. White Jammer is able to pass the other two Red Blockers at the hips before Red Pivot reclaims their position.",
+            "outcome": "White Blocker is penalized.",
+            "rationale": "White Blocker did not gain advantage from their block to an illegal target zone, but a teammate did: White Jammer earned passes and therefore scored points.",
+            "keepinminds": [
+                "If White Blocker had fully moved through the wall and continued on, that would also justify a penalty for gaining position, even though they were not scoring points.",
+                "If White Jammer did not score a point, and didn’t fully establish a superior position, this would not warrant a penalty on its own, even if they were momentarily ahead of the Red Blocker, because no real advantage (such as points or position) was gained."
+            ]
+        },
+        {
+            "title": "Scenario C4.1.1.D",
+            "description": "Red Blocker initiates a block, chest-to-chest, against White Blocker. The force of the impact causes secondary contact of Red Blocker’s upper arm to White Blocker’s neck. White Blocker’s head jerks back, but they do not fall off balance or go down.",
+            "outcome": "Red Blocker is penalized.",
+            "rationale": "Though Red Blocker’s hit was to a legal target zone with a legal blocking zone, and though White Blocker lost neither position nor advantage, forceful contact to the head or neck should always result in a penalty.",
+            "keepinminds": [
+                "Incidental contact to the neck or head that is not forceful and does not have any other impact should not result in a penalty."
+            ]
+        },
+        {
+            "title": "Scenario C4.1.1.E",
+            "description": "Red Blocker skates clockwise when White Blocker steps behind them, positionally blocking Red Blocker’s back with a legal target zone. Red Blocker stops skating clockwise.",
+            "outcome": "No penalty.",
+            "rationale": "A Skater cannot be penalized just for positionally blocking an illegal target zone. Skaters may be oriented and be moving in various directions during a game."
+        },
+        {
+            "title": "Scenario C4.1.1.F",
+            "description": "White Jammer approaches the rear of the Pack, targeting Red Blocker. Well before impact is made, Red Blocker side-steps, presenting their back (an illegal target zone). White Jammer makes contact anyway and knocks Red Blocker down.",
+            "outcome": "White Jammer is penalized.",
+            "rationale": "Red Blocker established a new position before White Jammer made contact. White Jammer is responsible for their initiated block, regardless of what their original target had been.",
+            "keepinminds": [
+                "If White Jammer had no reasonable opportunity to avoid Red Blocker’s illegal target zone because Red Blocker had presented an illegal target zone at the last moment, Red Blocker would then be initiating with their back, a legal blocking zone. Because White Jammer would not be considered the initiator, no penalty is warranted."
+            ]
+        },
+        {
+            "title": "Scenario C4.1.1.G",
+            "description": "White Jammer skates fast and directly into Red Blocker’s back, who was not prepared for the contact. Red Blocker falls wildly and slides into the skates of the wall of White Blockers in front of them, who fall.",
+            "outcome": "White Jammer is penalized. Red Blocker is not penalized.",
+            "rationale": "White Jammer made illegal contact to the Red Blocker. Due to this illegal contact, Red Blocker was unable to avoid committing their illegal action. As such, Red Blocker should not be penalized.",
+            "keepinminds": [
+                "If White Jammer had pushed Red Blocker forward into a White Blocker’s back, causing said White Blocker to fall but not Red Blocker, nobody would receive a penalty. In this case, the White Jammer’s illegal action is what caused their own teammate to fall. Red Blocker should not be penalized for this."
+            ]
+        },
+        {
+            "title": "Scenario C4.1.1.H",
+            "description": "Red Jammer skates around the track at a high rate of speed. They slam very forcefully into White Blocker’s back without making any attempt to avoid illegal contact. White Blocker, however, does not fall and Red Jammer does not gain position on anybody as a result of this action.",
+            "outcome": "Red Jammer should be considered for an expulsion.",
+            "rationale": "Contact to an opponent’s back is illegal, in no small part because it is unsafe. A flagrant violation of this rule poses a safety hazard to White Blocker, which has sufficient impact on the game to expel Red Jammer if judged to be negligent, intentional, or reckless, regardless of if White Blocker lost position."
+        }
+    ]
+}
