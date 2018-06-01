@@ -2,6 +2,7 @@ import React from 'react';
 import { Platform, StatusBar, StyleSheet, View } from 'react-native';
 import { AppLoading, Asset, Font } from 'expo';
 import { Ionicons } from '@expo/vector-icons';
+
 import RootNavigation from './navigation/RootNavigation';
 
 export default class App extends React.Component {
@@ -33,6 +34,12 @@ export default class App extends React.Component {
       Asset.loadAsync([
         require('./assets/images/robot-dev.png'),
         require('./assets/images/robot-prod.png'),
+        require('./assets/images/rules/blocking_zones.png'),
+        require('./assets/images/rules/contact_zones.png'),
+        require('./assets/images/rules/track_dimensions.png'),
+        require('./assets/images/usecases/c-gameplay-front-skates-forward.png'),
+        require('./assets/images/usecases/c-gameplay-pack-blocked-out.png'),
+        require('./assets/images/usecases/c-gameplay-pack-stretch.png')
       ]),
       Font.loadAsync({
         // This is the font that we are using for our tab bar

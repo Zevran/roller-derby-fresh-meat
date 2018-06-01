@@ -42,11 +42,11 @@ export default class HomeScreen extends React.Component {
           <Text>WFTDA rules view with main sections</Text>
         </Row>
         <Row>
-          <Icon name="checkbox-off" />
+          <Icon name="checkbox-on" />
           <Text>Glossary view according to rules</Text>
         </Row>
         <Row>
-          <Icon name="checkbox-off" />
+          <Icon name="checkbox-on" />
           <Text>Use-cases view according to rules</Text>
         </Row>
         <Row>
