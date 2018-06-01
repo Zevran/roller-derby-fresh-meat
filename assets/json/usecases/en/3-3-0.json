@@ -13,9 +13,7 @@
             "title": "Scenario C3.3.B",
             "description": "White Jammer is on their second trip through the Pack. They earn a pass on all opposing Blockers except Red Pivot, who is in front of them. They have not passed Red Jammer. Red Pivot forces White Jammer out of bounds, and then goes out of play. Red Pivot turns around, returns to play, and ends up behind White Jammer who is still out of bounds. White Jammer re-enters in front of Red Pivot, and just ahead of the Engagement Zone.",
             "outcome": "Three points.",
-            "rationale": "When White Jammer re-entered the track outside the Engagement Zone, their second trip through the Pack was complete. At that time, Red Pivot was in play. As such, White Jammer had the opportunity to earn a pass on Red Pivot during that trip through the Pack by returning to play inside the Engagement Zone, and then passing the Red Pivot.",
-            "keepinminds": [
-            ]
+            "rationale": "When White Jammer re-entered the track outside the Engagement Zone, their second trip through the Pack was complete. At that time, Red Pivot was in play. As such, White Jammer had the opportunity to earn a pass on Red Pivot during that trip through the Pack by returning to play inside the Engagement Zone, and then passing the Red Pivot."
         },
         {
             "title": "Scenario C3.3.C",
@@ -30,9 +28,7 @@
             "title": "Scenario C3.3.D",
             "description": "White Jammer begins their second trip through the Pack. Red Jammer is sent to the Penalty Box and is seated. Red Blockers 1 and 2 are already seated in the Box. Red Blocker 3 goes to the Box for another penalty. Red Blocker 4 removes themself from play to address an equipment issue. White Jammer skates past their own teammates.",
             "outcome": "Five points.",
-            "rationale": "Because there was no opportunity for White Jammer to earn a pass on any of their opponents, White Jammer earns a pass on all of them by completing the trip through the Engagement Zone as defined during a No Pack situation.",
-            "keepinminds": [
-            ]
+            "rationale": "Because there was no opportunity for White Jammer to earn a pass on any of their opponents, White Jammer earns a pass on all of them by completing the trip through the Engagement Zone as defined during a No Pack situation."
         },
         {
             "title": "Scenario C3.3.E",
@@ -47,25 +43,19 @@
             "title": "Scenario C3.3.F",
             "description": "Red Jammer commits a penalty at the beginning of their second trip through the Pack, not having earned any passes on opponents during that trip. While Red Jammer is in the Penalty Box, two White Blockers are sent to the Box. Red Jammer is released and returns to the Engagement Zone. The Pack is moving fast, and Red Jammer does not pass anybody. The other two White Blockers are released and return to the track behind Red Jammer. The Jam ends.",
             "outcome": "Zero points.",
-            "rationale": "Red Jammer had an opportunity to earn a pass on the two penalized White Blockers by earning a pass on one of the other, unpenalized White Blockers.",
-            "keepinminds": [
-            ]
+            "rationale": "Red Jammer had an opportunity to earn a pass on the two penalized White Blockers by earning a pass on one of the other, unpenalized White Blockers."
         },
         {
             "title": "Scenario C3.3.G",
             "description": "Red Jammer and White Jammer both commit penalties during their initial trips through the Pack and return from the Penalty Box shortly after one another. Red Jammer completes their initial trip first and skates around, earning passes on two opposing Blockers as White Jammer completes their initial trip through the Pack. Red Jammer gets stuck as White Jammer skates around, passes all opponents on their second trip, and exits the Engagement Zone. Red Jammer makes it through the Pack and also exits the Engagement Zone. Red Jammer and White Jammer block each other, each passing the other a few times. The Jam ends.",
             "outcome": "Both Jammers earn four points for their second trip through the Pack, and zero points for their third trip.",
-            "rationale": "When Red Jammer exited their initial trip ahead of White Jammer, they were in position to lap White Jammer, but did not. White Jammer exited the Pack before they were lapped, and earned lapping position on Red Jammer during their second trip. Red Jammer regained lapping position shortly after exiting the Engagement Zone, but neither Jammer ever lapped the other.",
-            "keepinminds": [
-            ]
+            "rationale": "When Red Jammer exited their initial trip ahead of White Jammer, they were in position to lap White Jammer, but did not. White Jammer exited the Pack before they were lapped, and earned lapping position on Red Jammer during their second trip. Red Jammer regained lapping position shortly after exiting the Engagement Zone, but neither Jammer ever lapped the other."
         },
         {
             "title": "Scenario C3.3.H",
             "description": "Red Jammer and White Jammer both commit penalties during their initial trips through the Pack and return from the Penalty Box shortly after one another. Red Jammer is the first to complete their initial trip through the Pack and skates around, earning passes on all opponents (including White Jammer) as White Jammer is stuck on their first trip. \n\nRed Jammer completes their third and fourth trips in the same manner and gets stuck on their fifth trip (having not passed White Jammer on their fifth trip) before White Jammer escapes. At this point, White Jammer completes their second and third trips in the same manner, while Red Jammer is stuck on their fifth trip. Red Jammer has passed all of the opposing Blockers during their fifth trip when the Jam ends.",
             "outcome": "Red Jammer earns five points for their second, third, and fourth trips, and four points for their fifth trip. White Jammer earns four points for their second trip and five points for their third trip.",
-            "rationale": "The total number of laps does not matter; what matters is whether a given earned pass represents a single instance of lapping the opponent. Even though Red Jammer passed White Jammer four times in a row, totalling three laps, White Jammer managed to lap Red Jammer once shortly thereafter.",
-            "keepinminds": [
-            ]
+            "rationale": "The total number of laps does not matter; what matters is whether a given earned pass represents a single instance of lapping the opponent. Even though Red Jammer passed White Jammer four times in a row, totalling three laps, White Jammer managed to lap Red Jammer once shortly thereafter."
         },
         {
             "title": "Scenario C3.3.I",

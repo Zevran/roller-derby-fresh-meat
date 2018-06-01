@@ -13,9 +13,7 @@
             "title": "Scenario C4.1.1.B",
             "description": "Red Jammer skates along the inside line and attempts to jump the apex to pass the Pack. White Pivot legally initiates a block to Red Jammer’s upper arm, which knocks Red Jammer off balance, and their jump comes up short. Red Jammer falls out of bounds. They fall small, but their momentum causes them to slide back onto the track, into White Blocker’s legs. White Blocker trips over Red Jammer and falls.",
             "outcome": "Red Jammer is penalized.",
-            "rationale": "Red Jammer is considered in bounds when White Pivot initiates a legal block. Though Red Jammer fell small, their forward momentum back onto the track means that they are a safety risk for more than just a “small” space. White Blocker’s loss of position as a result of that risk is enough to warrant a penalty.",
-            "keepinminds": [
-            ]
+            "rationale": "Red Jammer is considered in bounds when White Pivot initiates a legal block. Though Red Jammer fell small, their forward momentum back onto the track means that they are a safety risk for more than just a “small” space. White Blocker’s loss of position as a result of that risk is enough to warrant a penalty."
         },
         {
             "title": "Scenario C4.1.1.C",
@@ -40,9 +38,7 @@
             "title": "Scenario C4.1.1.E",
             "description": "Red Blocker skates clockwise when White Blocker steps behind them, positionally blocking Red Blocker’s back with a legal target zone. Red Blocker stops skating clockwise.",
             "outcome": "No penalty.",
-            "rationale": "A Skater cannot be penalized just for positionally blocking an illegal target zone. Skaters may be oriented and be moving in various directions during a game.",
-            "keepinminds": [
-            ]
+            "rationale": "A Skater cannot be penalized just for positionally blocking an illegal target zone. Skaters may be oriented and be moving in various directions during a game."
         },
         {
             "title": "Scenario C4.1.1.F",
@@ -66,9 +62,7 @@
             "title": "Scenario C4.1.1.H",
             "description": "Red Jammer skates around the track at a high rate of speed. They slam very forcefully into White Blocker’s back without making any attempt to avoid illegal contact. White Blocker, however, does not fall and Red Jammer does not gain position on anybody as a result of this action.",
             "outcome": "Red Jammer should be considered for an expulsion.",
-            "rationale": "Contact to an opponent’s back is illegal, in no small part because it is unsafe. A flagrant violation of this rule poses a safety hazard to White Blocker, which has sufficient impact on the game to expel Red Jammer if judged to be negligent, intentional, or reckless, regardless of if White Blocker lost position.",
-            "keepinminds": [
-            ]
+            "rationale": "Contact to an opponent’s back is illegal, in no small part because it is unsafe. A flagrant violation of this rule poses a safety hazard to White Blocker, which has sufficient impact on the game to expel Red Jammer if judged to be negligent, intentional, or reckless, regardless of if White Blocker lost position."
         }
     ]
 }

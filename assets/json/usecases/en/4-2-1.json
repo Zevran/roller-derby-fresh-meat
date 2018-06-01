@@ -4,25 +4,19 @@
             "title": "Scenario C4.2.1.A",
             "description": "Red Pivot is the only Red Blocker on track. White Pivot forces Red Pivot out of bounds.",
             "outcome": "Officials declare a No Pack situation. No penalty.",
-            "rationale": "The destruction of the Pack occurred as a result of normal gameplay. It should not be considered an illegal Pack destruction.",
-            "keepinminds": [
-            ]
+            "rationale": "The destruction of the Pack occurred as a result of normal gameplay. It should not be considered an illegal Pack destruction."
         },
         {
             "title": "Scenario C4.2.1.B",
             "description": "Red Pivot is the only Red Blocker on the track. Red Pivot attempts to block White Jammer as they pass. Red Pivot misses, and ends up out of bounds.",
             "outcome": "Officials declare a No Pack situation. No penalty.",
-            "rationale": "The destruction of the Pack occurred as a result of normal gameplay. It should not be considered an illegal Pack destruction.",
-            "keepinminds": [
-            ]
+            "rationale": "The destruction of the Pack occurred as a result of normal gameplay. It should not be considered an illegal Pack destruction."
         },
         {
             "title": "Scenario C4.2.1.C",
             "description": "Red Pivot is the only Red Blocker on the track. Red Pivot intentionally skates out of bounds.",
             "outcome": "Officials declare a No Pack situation. Red Pivot is instructed to remain on the track, and is penalized.",
-            "rationale": "Red Pivot’s illegal action (stepping out of bounds) destroyed the Pack. Red Pivot is the final remaining Red Blocker, and must remain on the track so that a Pack can be formed.",
-            "keepinminds": [
-            ]
+            "rationale": "Red Pivot’s illegal action (stepping out of bounds) destroyed the Pack. Red Pivot is the final remaining Red Blocker, and must remain on the track so that a Pack can be formed."
         },
         {
             "title": "Scenario C4.2.1.D",
@@ -37,17 +31,13 @@
             "title": "Scenario C4.2.1.E",
             "description": "Red Pivot is skating 9 ft (2.74m) behind the White Blockers and 9 ft (2.74m) ahead of the other Red Blockers. Their kneepad slips down their leg, and is no longer protecting their knee. Red Pivot takes themself off the track in order to adjust their equipment, creating a No Pack situation.",
             "outcome": "Officials declare a No Pack situation. No penalty.",
-            "rationale": "Although Red Pivot’s actions directly caused a No Pack situation, it was in order to resolve a safety issue. Skaters should not be penalized for rectifying a safety issue.",
-            "keepinminds": [
-            ]
+            "rationale": "Although Red Pivot’s actions directly caused a No Pack situation, it was in order to resolve a safety issue. Skaters should not be penalized for rectifying a safety issue."
         },
         {
             "title": "Scenario C4.2.1.F",
             "description": "White Jammer removes their helmet cover and attempts to hand it to White Pivot. During this process, the Star falls, touching out of bounds. White Jammer leaves the track to retrieve the helmet cover.",
             "outcome": "No penalty.",
-            "rationale": "The Jammer and the Pivot may leave the track of their own accord to retrieve a helmet cover that has fallen at least partially out of bounds. Not allowing them to do so would leave them unable to recover the helmet cover.",
-            "keepinminds": [
-            ]
+            "rationale": "The Jammer and the Pivot may leave the track of their own accord to retrieve a helmet cover that has fallen at least partially out of bounds. Not allowing them to do so would leave them unable to recover the helmet cover."
         },
         {
             "title": "Scenario C4.2.1.G",
@@ -62,9 +52,7 @@
             "title": "Scenario C4.2.1.H",
             "description": "White Jammer is calling off the Jam. They skate out of bounds during the Jam-Ending Whistles.",
             "outcome": "No penalty.",
-            "rationale": "Skating out of bounds during the four whistles of a Jam call-off does not allow a Skater to score additional points nor gain meaningful advantage over any other Skater.",
-            "keepinminds": [
-            ]
+            "rationale": "Skating out of bounds during the four whistles of a Jam call-off does not allow a Skater to score additional points nor gain meaningful advantage over any other Skater."
         },
         {
             "title": "Scenario C4.2.1.I",

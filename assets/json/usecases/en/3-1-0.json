@@ -13,9 +13,7 @@
             "title": "Scenario C3.1.B",
             "description": "The Red Jammer is in lapping position on the White Jammer. Red Jammer enters the pack ahead of White Jammer, while White Jammer is approaching the pack for their second trip. Red Jammer passes the Star, and the new Red Jammer escapes the pack. White Jammer enters the pack and passes all four Red Blockers (including the original Red Jammer).",
             "outcome": "White Jammer scores four points.",
-            "rationale": "All Blockers are considered to be tied together with respect to the opposing Jammer’s trip through the pack. So, even though the White Jammer did not lap the original Red Jammer, when the Red Jammer became a Blocker, this gave the White Jammer lapping position.",
-            "keepinminds": [
-            ]
+            "rationale": "All Blockers are considered to be tied together with respect to the opposing Jammer’s trip through the pack. So, even though the White Jammer did not lap the original Red Jammer, when the Red Jammer became a Blocker, this gave the White Jammer lapping position."
         },
         {
             "title": "Scenario C3.1.C",
@@ -30,9 +28,7 @@
             "title": "Scenario C3.1.D",
             "description": "White Jammer is on their second trip through the Pack and jumps the apex, passing all four Red Blockers while mid-air. White Jammer’s right skate lands in bounds, with their hips ahead of all Blockers. Moments later, White Jammer’s left skate lands out of bounds.",
             "outcome": "Four points.",
-            "rationale": "White Jammer’s in bounds status was maintained while airborne because the first part of their skate to touch back down touched in bounds. White Jammer’s upright status was maintained while airborne because they touched the ground skate-first. The fact that White Jammer touched out of bounds with the other skate does not affect points (but may affect their subsequent position relative to the Skaters they passed while airborne).",
-            "keepinminds": [
-            ]
+            "rationale": "White Jammer’s in bounds status was maintained while airborne because the first part of their skate to touch back down touched in bounds. White Jammer’s upright status was maintained while airborne because they touched the ground skate-first. The fact that White Jammer touched out of bounds with the other skate does not affect points (but may affect their subsequent position relative to the Skaters they passed while airborne)."
         }
     ]
 }

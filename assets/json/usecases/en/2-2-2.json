@@ -13,33 +13,25 @@
             "title": "Scenario C2.2.2.B",
             "description": "Red Jammer exits the Engagement Zone but did not earn Lead Jammer. White Jammer is knocked down, but not out of bounds. While White Jammer is down, the opposing Blockers–including the foremost Blocker–all skate clockwise behind them. White Jammer then stands back up.",
             "outcome": "White Jammer should be declared Lead when they stand.",
-            "rationale": "By skating clockwise behind White Jammer, the Red Blockers ceded their position. As such, White Jammer earned those passes and they count toward earning Lead.",
-            "keepinminds": [
-            ]
+            "rationale": "By skating clockwise behind White Jammer, the Red Blockers ceded their position. As such, White Jammer earned those passes and they count toward earning Lead."
         },
         {
             "title": "Scenario C2.2.2.C",
             "description": "White Jammer makes their way through the Pack on their initial pass, while Red Jammer remains stuck at the rear. Through numerous blocks and changes in position, White Jammer earns a pass on all Blockers, but none of them are ever the foremost Blocker in the Pack when White Jammer earns the pass.",
             "outcome": "The Jammer Referee should not declare White Jammer Lead (yet).",
-            "rationale": "White Jammer has earned a pass against all Blockers, but has never earned superior position to the foremost Blocker in the Pack. Lead Jammer is earned when the Jammer has earned a pass on all in play Blockers and established a superior position to the foremost in play Blocker.",
-            "keepinminds": [
-            ]
+            "rationale": "White Jammer has earned a pass against all Blockers, but has never earned superior position to the foremost Blocker in the Pack. Lead Jammer is earned when the Jammer has earned a pass on all in play Blockers and established a superior position to the foremost in play Blocker."
         },
         {
             "title": "Scenario C2.2.2.D",
             "description": "Red Jammer passes all Blockers on their initial trip through the Pack, except for one White Blocker. Red Jammer legally pushes White Blocker to the front of the Engagement Zone, and then out of play.",
             "outcome": "Red Jammer is declared Lead as soon as White Blocker leaves the front of the Engagement Zone.",
-            "rationale": "Red Jammer only needs to pass the in play Blockers to earn Lead Jammer.",
-            "keepinminds": [
-            ]
+            "rationale": "Red Jammer only needs to pass the in play Blockers to earn Lead Jammer."
         },
         {
             "title": "Scenario C2.2.2.E",
             "description": "White Jammer and Red Jammer are both ahead of all Blockers except White Pivot. Red Jammer is ahead of White Jammer, and pushes White Pivot legally out of the Engagement Zone.",
             "outcome": "Red Jammer is declared Lead.",
-            "rationale": "At the moment that White Pivot left play, both Jammers had passed all in play Blockers. Because Red Jammer was foremost, Red Jammer was declared Lead.",
-            "keepinminds": [
-            ]
+            "rationale": "At the moment that White Pivot left play, both Jammers had passed all in play Blockers. Because Red Jammer was foremost, Red Jammer was declared Lead."
         },
         {
             "title": "Scenario C2.2.2.F",

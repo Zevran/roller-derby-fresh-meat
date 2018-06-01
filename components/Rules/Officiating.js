@@ -1,7 +1,8 @@
 import React from 'react';
-import { View, Title, Subtitle, Text, Divider } from '@shoutem/ui';
+import { withNavigation } from 'react-navigation';
+import { View, Title, Button, Icon, Subtitle, Text, Divider } from '@shoutem/ui';
 
-export default class Officiating extends React.Component {
+class Officiating extends React.Component {
 
   render() {
     return (
@@ -132,7 +133,20 @@ export default class Officiating extends React.Component {
         <Text styleName="multiline bold">
           If a penalty is warranted, but it is not clear to whom the penalty should be assessed, an Official should assess the penalty to the nearest Blocker from the appropriate team if the action is committed mid-Jam, or to the team’s Captain if the action is committed between Jams. If an Official is not certain which team is responsible, no penalty should be assessed. If off-skates support staff commit a penalty, the penalty should be assessed to the appropriate team’s Captain. If a penalty is assessed to the Captain due to the fact that they are Captain, they will serve the penalty as a Blocker in a following Jam.
         </Text>
+        <Divider styleName="empty" />
+        <Button onPress={() => {
+            const content = require('../../assets/json/usecases/en/5-4-0.json').scenarios;
+            this.props.navigation.navigate('UseCases', {
+              title: 'Assessing Penalties',
+              content
+            });
+          }}>
+          <Text>VIEW USE CASES</Text>
+          <Icon name="right-arrow" />
+        </Button>
       </View>
     );
   }
 }
+
+export default withNavigation(Officiating);

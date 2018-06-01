@@ -4,33 +4,25 @@
             "title": "Scenario C4.1.3.A",
             "description": "White Pivot stands still on their toe stops and initiates a block against Red Jammer. Red Jammer does not fall, but is brought to a stop. Red Jammer counter-blocks, but White Pivot continues to block while on their toe stops and Red Jammer is unable to get past.",
             "outcome": "White Pivot is penalized.",
-            "rationale": "If Red Jammer loses position or has their momentum or trajectory severely affected by a block initiated in an unexpected way, the initiator should receive a penalty. In this example, if White Pivot had not maintained their stopped block but instead returned to counterclockwise skating, allowing Red Jammer to maintain part of their momentum, it would not have resulted in a penalty.",
-            "keepinminds": [
-            ]
+            "rationale": "If Red Jammer loses position or has their momentum or trajectory severely affected by a block initiated in an unexpected way, the initiator should receive a penalty. In this example, if White Pivot had not maintained their stopped block but instead returned to counterclockwise skating, allowing Red Jammer to maintain part of their momentum, it would not have resulted in a penalty."
         },
         {
             "title": "Scenario C4.1.3.B",
             "description": "Red Blocker uses a legal blocking zone to initiate a block to a legal target zone of White Blocker. White Blocker is pushed until one skate is in bounds and one skate is out of bounds. Red Blocker continues to block until White Blocker is fully out of bounds. Red Blocker re-initiates a new block that knocks White Blocker down.",
             "outcome": "Red Blocker is penalized.",
-            "rationale": "A Skater should not expect to be blocked while out of bounds. It is only legal to block a Skater who is in bounds or straddling. The additional new block is what warrants the penalty.",
-            "keepinminds": [
-            ]
+            "rationale": "A Skater should not expect to be blocked while out of bounds. It is only legal to block a Skater who is in bounds or straddling. The additional new block is what warrants the penalty."
         },
         {
             "title": "Scenario C4.1.3.C",
             "description": "Red Blocker is knocked out of bounds and recycled to the rear of the Pack. They accelerate and move in bounds, directly into White Blocker, who falls.",
             "outcome": "Red Blocker is penalized.",
-            "rationale": "Even if the target and blocking zones were legal and both Skaters were in bounds, Red Blocker gained an unexpected advantage by accelerating while out of bounds into the block. White Blocker should not expect to be blocked by an out of bounds opponent.",
-            "keepinminds": [
-            ]
+            "rationale": "Even if the target and blocking zones were legal and both Skaters were in bounds, Red Blocker gained an unexpected advantage by accelerating while out of bounds into the block. White Blocker should not expect to be blocked by an out of bounds opponent."
         },
         {
             "title": "Scenario C4.1.3.D",
             "description": "Red Blocker is knocked out of bounds by White Blocker, who also goes out of bounds, leaving an opening on the inside line. The out of bounds Red Blocker grabs the in bounds Red Jammer by the hips and pushes them past the in bounds White Blockers.",
             "outcome": "Red Blocker is penalized.",
-            "rationale": "The threshold for penalization of assists follows similar metrics to blocks. They cannot come from a place where one’s opponent would not expect an assist to happen, such as out of bounds, while down, or while stopped. Because the Red Blocker could not legally be blocked, it would also be illegal to prevent the assist, giving Red Blocker another unfair advantage.",
-            "keepinminds": [
-            ]
+            "rationale": "The threshold for penalization of assists follows similar metrics to blocks. They cannot come from a place where one’s opponent would not expect an assist to happen, such as out of bounds, while down, or while stopped. Because the Red Blocker could not legally be blocked, it would also be illegal to prevent the assist, giving Red Blocker another unfair advantage."
         },
         {
             "title": "Scenario C4.1.3.E",

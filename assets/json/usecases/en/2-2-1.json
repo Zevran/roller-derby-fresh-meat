@@ -14,9 +14,7 @@
             "title": "Scenario C2.2.1.B",
             "description": "Before the Jam-Starting Whistle, Red Jammer skates backward. They come to a quick stop and shoot forward at the Jam-Starting Whistle.",
             "outcome": "If Red Jammer was moving clockwise or stopped when the whistle occurred, nothing should be done. If Red Jammer turned counterclockwise earlier and was gaining speed, this should be treated as a false start.",
-            "rationale": "Jammers may not be gaining speed counterclockwise at the Jam-Starting Whistle.",
-            "keepinminds": [
-            ]
+            "rationale": "Jammers may not be gaining speed counterclockwise at the Jam-Starting Whistle."
         }
     ]
 }

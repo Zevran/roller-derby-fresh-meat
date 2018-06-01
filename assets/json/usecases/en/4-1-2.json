@@ -4,9 +4,7 @@
             "title": "Scenario C4.1.2.A",
             "description": "Red Jammer initiates a block with their forearms tucked into their torso, to a legal target zone of White Blocker. White Blocker is knocked out of bounds.",
             "outcome": "No penalty.",
-            "rationale": "Red Jammer’s forearms were fully tucked into their torso. While forearms are an illegal blocking zone, tucking them into the torso effectively makes them part of the torso, and thus a legal blocking zone.",
-            "keepinminds": [
-            ]
+            "rationale": "Red Jammer’s forearms were fully tucked into their torso. While forearms are an illegal blocking zone, tucking them into the torso effectively makes them part of the torso, and thus a legal blocking zone."
         },
         {
             "title": "Scenario C4.1.2.B",
@@ -39,9 +37,7 @@
             "title": "Scenario C4.1.2.E",
             "description": "White Blocker is knocked off balance and grabs hold of Red Blocker’s jersey in an attempt to regain their balance. Red Blocker remains standing, but is significantly slowed by the pulling at their jersey. White Blocker regains their balance.",
             "outcome": "White Blocker is penalized.",
-            "rationale": "Assists taken from an opponent, such as whips or braces, are penalizable if they result in some kind of advantage for the initiator or disadvantage for the opponent. White Blocker significantly slowed Red Blocker by using an illegal blocking zone.",
-            "keepinminds": [
-            ]
+            "rationale": "Assists taken from an opponent, such as whips or braces, are penalizable if they result in some kind of advantage for the initiator or disadvantage for the opponent. White Blocker significantly slowed Red Blocker by using an illegal blocking zone."
         },
         {
             "title": "Scenario C4.1.2.F",

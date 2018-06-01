@@ -4,25 +4,19 @@
             "title": "Scenario C3.2.A",
             "description": "Red Jammer lines up to start the Jam in front of White Jammer. After the Jam-Starting Whistle, Red Jammer breaks out of the Pack and earns Lead Jammer (thereby passing everyone) while White Jammer remains held back. Red Jammer skates around, earns a pass on all Blockers plus White Jammer, and calls off the Jam.",
             "outcome": "Five points.",
-            "rationale": "Red Jammer earned passes on all five opponents (four Blockers and one Jammer) during their second trip through the Pack. Accordingly, the passes constituted laps, and were earned.",
-            "keepinminds": [
-            ]
+            "rationale": "Red Jammer earned passes on all five opponents (four Blockers and one Jammer) during their second trip through the Pack. Accordingly, the passes constituted laps, and were earned."
         },
         {
             "title": "Scenario C3.2.B",
             "description": "White Jammer is sent to the Penalty Box shortly after the Jam begins (on their first trip through the Pack). Red Jammer completes their first trip through the Pack, and begins their second. Red Jammer earns a pass on two opposing Blockers before the Jam is called.",
             "outcome": "Three points.",
-            "rationale": "On Red Jammer’s second trip through the Pack, they earned a pass on White Jammer by earning a pass on the first White Blocker while White Jammer was penalized.",
-            "keepinminds": [
-            ]
+            "rationale": "On Red Jammer’s second trip through the Pack, they earned a pass on White Jammer by earning a pass on the first White Blocker while White Jammer was penalized."
         },
         {
             "title": "Scenario C3.2.C",
             "description": "At the start of the Jam, Red Jammer blocks White Jammer out of bounds and skates clockwise. Red Jammer leaves the Engagement Zone from the rear, re-enters it from the front, and skates in-bounds to the rear of the Pack. White Jammer comes in behind Red Jammer, and gets stuck in the Pack prior to re-starting their initial trip through the Pack. Red Jammer skates forward, exits the Engagement Zone from the front, enters the Engagement Zone from the rear, earns passes on all opponents, and completes their initial trip through the Pack.",
             "outcome": "One point.",
-            "rationale": "Even though Red Jammer earned passes while “lapping” all opposing Skaters (all the opposing Blockers, plus the opposing Jammer) on their initial trip through the Pack, passes prior to the initial trip do not count toward lapping Blockers. But they do count toward lapping Jammers; at the end of their initial trip through the Pack, Red Jammer has passed all opponents, but is only said to have lapped White Jammer.",
-            "keepinminds": [
-            ]
+            "rationale": "Even though Red Jammer earned passes while “lapping” all opposing Skaters (all the opposing Blockers, plus the opposing Jammer) on their initial trip through the Pack, passes prior to the initial trip do not count toward lapping Blockers. But they do count toward lapping Jammers; at the end of their initial trip through the Pack, Red Jammer has passed all opponents, but is only said to have lapped White Jammer."
         },
         {
             "title": "Scenario C3.2.D",

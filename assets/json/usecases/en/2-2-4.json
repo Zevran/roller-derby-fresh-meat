@@ -14,17 +14,13 @@
             "title": "Scenario C2.2.4.B",
             "description": "White Jammer removes their helmet cover and hands it to White Pivot. Before White Jammer releases their grip on the Star, White Pivot is knocked out of bounds. White Jammer then releases the Star to the out of bounds Pivot.",
             "outcome": "White Jammer receives a penalty for passing the Star to an ineligible Pivot.",
-            "rationale": "Although White Jammer attempted to pass the Star while White Pivot was eligible, a Star Pass is a single point of exchange: the moment at which the Star is released.",
-            "keepinminds": [
-            ]
+            "rationale": "Although White Jammer attempted to pass the Star while White Pivot was eligible, a Star Pass is a single point of exchange: the moment at which the Star is released."
         },
         {
             "title": "Scenario C2.2.4.C",
             "description": "White Pivot’s Stripe falls off in normal gameplay. White Jammer removes their helmet cover, hands it to White Pivot, and releases the Star.",
             "outcome": "White Jammer receives a penalty for passing the Star to an ineligible Pivot.",
-            "rationale": "A Pivot who is not visibly wearing the Stripe cannot use the privileges of being a Pivot, such as receiving a Star Pass or even recovering the Star after an incomplete Star Pass.",
-            "keepinminds": [
-            ]
+            "rationale": "A Pivot who is not visibly wearing the Stripe cannot use the privileges of being a Pivot, such as receiving a Star Pass or even recovering the Star after an incomplete Star Pass."
         },
         {
             "title": "Scenario C2.2.4.D",
@@ -49,9 +45,7 @@
             "title": "Scenario C2.2.4.F",
             "description": "White Jammer legally passes the Star to White Pivot. Later in the Jam, White Pivot-turned-Jammer receives a penalty and goes to the Penalty Box. The Jam ends and Red team calls an Official Review. As a result of the review, the original White Jammer receives a penalty for an illegal action they took as Jammer.",
             "outcome": "The additional penalty should be served by White Pivot-turned-Jammer and recorded for the original White Jammer. The original White Jammer should not be allowed to participate in the game until time for the penalty they earned has completed.",
-            "rationale": "White Jammer legally passed the Star, making White Pivot the new Jammer, but received a penalty upon review for an action committed while they were the Jammer. This would put two different White Skaters in the Box as a Jammer. A penalty is assigned to a Skater. The penalty time is assigned to a position, with the Skater not allowed to participate until it has been served. In this example, the original White Jammer receives the penalty and the current White Jammer (former Pivot) serves the time. Reverting the current Jammer to a Pivot or having the original Jammer serve the time as a Blocker would deprive Red team of earned advantages.",
-            "keepinminds": [
-            ]
+            "rationale": "White Jammer legally passed the Star, making White Pivot the new Jammer, but received a penalty upon review for an action committed while they were the Jammer. This would put two different White Skaters in the Box as a Jammer. A penalty is assigned to a Skater. The penalty time is assigned to a position, with the Skater not allowed to participate until it has been served. In this example, the original White Jammer receives the penalty and the current White Jammer (former Pivot) serves the time. Reverting the current Jammer to a Pivot or having the original Jammer serve the time as a Blocker would deprive Red team of earned advantages."
         }
     ]
 }

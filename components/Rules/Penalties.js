@@ -316,6 +316,17 @@ class Penalties extends React.Component {
           Examples of this are listed in the Rules of Flat Track Roller Derby Casebook; however, Skaters and Officials should work to ensure that the rules are followed as swiftly as possible, and to rectify any illegal or potentially illegal play before it has sufficient impact on the game to warrant penalization. Nevertheless, if a technical violation by one team results in an advantage, this should be penalized.
         </Text>
         <Divider styleName="empty" />
+        <Button onPress={() => {
+            const content = require('../../assets/json/usecases/en/4-2-4.json').scenarios;
+            this.props.navigation.navigate('UseCases', {
+              title: 'Other Illegal Procedures',
+              content
+            });
+          }}>
+          <Text>VIEW USE CASES</Text>
+          <Icon name="right-arrow" />
+        </Button>
+        <Divider styleName="empty" />
         <Title>
           4.3. Penalties for Unsporting Conduct (Misconduct)
         </Title>
@@ -342,6 +353,17 @@ class Penalties extends React.Component {
         <Text styleName="multiline">
           Actions which seriously undermine the legitimacy of the sport or display a lack of respect for the sport, its execution, and those who contribute to it may also be penalized.
         </Text>
+        <Divider styleName="empty" />
+        <Button onPress={() => {
+            const content = require('../../assets/json/usecases/en/4-3-0.json').scenarios;
+            this.props.navigation.navigate('UseCases', {
+              title: 'Penalties for Unsporting Conduct',
+              content
+            });
+          }}>
+          <Text>VIEW USE CASES</Text>
+          <Icon name="right-arrow" />
+        </Button>
         <Divider styleName="empty" />
         <Title>
           4.4. Enforcing Penalties
@@ -375,6 +397,17 @@ class Penalties extends React.Component {
           Nobody may enter the Penalty Box except for Officials and Skaters who are serving penalties.
         </Text>
         <Divider styleName="empty" />
+        <Button onPress={() => {
+            const content = require('../../assets/json/usecases/en/4-4-0.json').scenarios;
+            this.props.navigation.navigate('UseCases', {
+              title: 'Enforcing Penalties',
+              content
+            });
+          }}>
+          <Text>VIEW USE CASES</Text>
+          <Icon name="right-arrow" />
+        </Button>
+        <Divider styleName="empty" />
         <Subtitle>
           4.4.1. Penalty Enforcement for Blockers
         </Subtitle>
@@ -393,6 +426,17 @@ class Penalties extends React.Component {
         <Text styleName="multiline">
           A Blocker must immediately return if instructed to do so by an Official. Once a Blocker in queue returns to the track, they should be treated like any other unpenalized Blocker.
         </Text>
+        <Divider styleName="empty" />
+        <Button onPress={() => {
+            const content = require('../../assets/json/usecases/en/4-4-1.json').scenarios;
+            this.props.navigation.navigate('UseCases', {
+              title: 'Penalty Enforcement for Blockers',
+              content
+            });
+          }}>
+          <Text>VIEW USE CASES</Text>
+          <Icon name="right-arrow" />
+        </Button>
         <Divider styleName="empty" />
         <Subtitle>
           4.4.2. Penalty Enforcement for Jammers
@@ -417,6 +461,17 @@ class Penalties extends React.Component {
         <Text styleName="multiline">
           If a Jammer is sent to the Box when there is no opposing Jammer (for example, because the opposing Jammer has an equipment malfunction), the Jam will end once the Jammer is seated. This ensures that there is one Jammer who is not serving a penalty.
         </Text>
+        <Divider styleName="empty" />
+        <Button onPress={() => {
+            const content = require('../../assets/json/usecases/en/4-4-2.json').scenarios;
+            this.props.navigation.navigate('UseCases', {
+              title: 'Penalty Enforcement for Jammers',
+              content
+            });
+          }}>
+          <Text>VIEW USE CASES</Text>
+          <Icon name="right-arrow" />
+        </Button>
         <Divider styleName="empty" />
         <Title>
           4.5. Fouling Out & Expulsions
@@ -444,6 +499,17 @@ class Penalties extends React.Component {
         <Text styleName="multiline">
           If a Skater is removed from the game mid-Jam, their penalty will be timed as if a Skater were seated even though there is no Skater formally in the Box. If the Jam ends before the time is complete, the Skater’s team must be given the opportunity to substitute a different Skater to serve the remainder of the penalty in the same position as the removed Skater. Substitutions may not occur during the Jam in which the Skater is removed.
         </Text>
+        <Divider styleName="empty" />
+        <Button onPress={() => {
+            const content = require('../../assets/json/usecases/en/4-5-0.json').scenarios;
+            this.props.navigation.navigate('UseCases', {
+              title: 'Fouling Out & Expulsions',
+              content
+            });
+          }}>
+          <Text>VIEW USE CASES</Text>
+          <Icon name="right-arrow" />
+        </Button>
       </View>
     );
   }
