@@ -39,7 +39,8 @@ export default class App extends React.Component {
         require('./assets/images/rules/track_dimensions.png'),
         require('./assets/images/usecases/c-gameplay-front-skates-forward.png'),
         require('./assets/images/usecases/c-gameplay-pack-blocked-out.png'),
-        require('./assets/images/usecases/c-gameplay-pack-stretch.png')
+        require('./assets/images/usecases/c-gameplay-pack-stretch.png'),
+        require('./assets/images/usecases/c-gameplay-positions.png')
       ]),
       Font.loadAsync({
         // This is the font that we are using for our tab bar

@@ -2,6 +2,7 @@
     "scenarios": [
         {
             "title": "Scenario C2.2.A",
+            "image": "c-gameplay-positions.png",
             "description": "As the Jam-Starting Whistle sounds, Red Jammer’s left skate has rolled forward, past the Jammer Line.",
             "outcome": "Red Jammer is issued a False Start warning and must yield their position to all Skaters in their immediate vicinity. If they do not yield, they will receive a penalty.",
             "rationale": "Red Jammer established their starting position partially out of position, with one skate ahead of the Jammer Line.",
