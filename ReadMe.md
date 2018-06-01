@@ -13,7 +13,7 @@ A tiny roller derby application for fresh meats
 - [ ] Improve use-cases view with images, keep-in-minds and follow-ups
 - [ ] Add about view
 - [ ] Add welcome view with derby name input
-- [ ] Add icon image
+- [x] Add icon image
 
 ## Credits
 
