@@ -26,7 +26,8 @@
       "supportsTablet": true
     },
     "android": {
-      "package": "com.gaelreyrol.freshmeat"
+      "package": "com.gaelreyrol.freshmeat",
+      "permissions": []
     },
     "packagerOpts": {
       "assetExts": [
